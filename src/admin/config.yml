@@ -1,0 +1,157 @@
+# GMA Website Editor (Decap CMS)
+# Edits are saved to the website's GitHub repository; Netlify rebuilds the site automatically (about 1 minute).
+backend:
+  name: github
+  repo: gmaaircon/gma-website
+  branch: main
+  base_url: https://api.netlify.com
+  commit_messages:
+    update: "Website edit: {{slug}}"
+
+site_url: https://gma-ac.com
+display_url: https://gma-ac.com
+logo_url: /assets/img/brand/gma-logo-full.svg
+media_folder: src/assets/img/uploads
+public_folder: /assets/img/uploads
+locale: en
+
+collections:
+  - name: blog
+    label: Blog posts
+    label_singular: Blog post
+    folder: src/blog/posts
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: [date, title]
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Publish date, name: date, widget: datetime, date_format: "DD/MM/YYYY", time_format: false, format: "YYYY-MM-DD" }
+      - { label: Short summary (shown on the blog page), name: summary, widget: text }
+      - { label: Google description (max ~155 characters), name: description, widget: string, required: false }
+      - { label: Main image, name: image, widget: image, required: false }
+      - { label: Post body, name: body, widget: markdown }
+
+  - name: pages
+    label: Site content
+    files:
+      - label: Homepage
+        name: home
+        file: src/_data/home.json
+        fields:
+          - { label: Hero small label, name: heroEyebrow, widget: string }
+          - { label: Hero heading, name: heroTitle, widget: string }
+          - { label: Hero heading (teal words), name: heroHighlight, widget: string }
+          - { label: Hero text, name: heroText, widget: text }
+          - label: Stats bar
+            name: stats
+            widget: list
+            fields: [{ label: Figure, name: value, widget: string }, { label: Label, name: label, widget: string }]
+          - { label: About heading, name: aboutTitle, widget: string }
+          - { label: About paragraphs, name: aboutText, widget: list, field: { label: Paragraph, name: p, widget: text } }
+          - { label: "Why choose GMA – bullet points", name: whyChoose, widget: list, field: { label: Point, name: point, widget: string } }
+          - { label: Bottom call-to-action heading, name: ctaTitle, widget: string }
+          - { label: Bottom call-to-action text, name: ctaText, widget: text }
+
+      - label: Company details (phone, email, hours, social links)
+        name: site
+        file: src/_data/site.json
+        fields:
+          - { label: Trading name, name: name, widget: string }
+          - { label: Legal name, name: legalName, widget: string }
+          - { label: Website address, name: url, widget: string }
+          - { label: Strapline, name: tagline, widget: string }
+          - { label: Phone (as shown), name: phoneDisplay, widget: string }
+          - { label: "Phone (for links, e.g. +441315640113)", name: phoneLink, widget: string }
+          - { label: Email, name: email, widget: string }
+          - { label: Based in, name: baseLocation, widget: string }
+          - { label: Service area, name: serviceArea, widget: string }
+          - { label: Company number, name: companyNumber, widget: string }
+          - { label: Registered in, name: registeredIn, widget: string }
+          - { label: Registered office (privacy page only), name: registeredOffice, widget: string }
+          - { label: Office hours, name: hours, widget: string }
+          - label: Social links
+            name: social
+            widget: object
+            fields:
+              - { label: Facebook, name: facebook, widget: string }
+              - { label: Instagram, name: instagram, widget: string }
+              - { label: LinkedIn, name: linkedin, widget: string }
+          - { label: Cyber Essentials widget link, name: cyberEssentialsWidget, widget: string }
+          - { label: Footer text, name: footerBlurb, widget: text }
+          - { label: Footer accreditation line, name: footerBadges, widget: string }
+
+      - label: Services
+        name: services
+        file: src/_data/services.json
+        fields:
+          - label: Services
+            name: items
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Short text (homepage), name: short, widget: string }
+              - { label: Full text (services page), name: text, widget: text }
+              - { label: Icon, name: icon, widget: select, options: [wrench, bolt, snowflake, clipboard, shield, file, hospital, wind, battery, chart, building, wave, server, bag, home] }
+              - { label: Show on homepage, name: featured, widget: boolean, required: false }
+              - { label: Link to page (optional), name: link, widget: string, required: false }
+
+      - label: Sectors / expertise
+        name: sectors
+        file: src/_data/sectors.json
+        fields:
+          - label: Sectors
+            name: items
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Text, name: text, widget: text }
+              - { label: Icon, name: icon, widget: select, options: [battery, building, hospital, wave, server, bag, home, snowflake, wind] }
+              - { label: Bullet points, name: points, widget: list, field: { label: Point, name: point, widget: string } }
+
+      - label: Gallery
+        name: gallery
+        file: src/_data/gallery.json
+        fields:
+          - label: Projects
+            name: items
+            widget: list
+            summary: "{{fields.title}} ({{fields.category}})"
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Category, name: category, widget: select, options: [Commercial, Residential, Healthcare, BESS, Service & Maintenance, Team] }
+              - { label: Image, name: image, widget: image }
+              - { label: Thumbnail (optional – leave blank to use main image), name: thumb, widget: image, required: false }
+              - { label: Show on homepage, name: home, widget: boolean, required: false }
+
+      - label: Testimonials
+        name: testimonials
+        file: src/_data/testimonials.json
+        fields:
+          - label: Testimonials
+            name: items
+            widget: list
+            fields:
+              - { label: Customer name, name: name, widget: string }
+              - { label: Review text, name: text, widget: text }
+
+      - label: Accreditations
+        name: accreditations
+        file: src/_data/accreditations.json
+        fields:
+          - label: Accreditations
+            name: items
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Logo (optional – shown as text if blank), name: logo, widget: image, required: false }
+
+      - label: TM44 FAQs
+        name: tm44
+        file: src/_data/tm44.json
+        fields:
+          - label: Questions
+            name: faq
+            widget: list
+            fields:
+              - { label: Question, name: q, widget: string }
+              - { label: Answer, name: a, widget: text }

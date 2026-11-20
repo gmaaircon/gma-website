@@ -1,0 +1,75 @@
+---
+layout: base.njk
+permalink: /4d-monitoring/
+title: "4D Monitoring | Remote HVAC Monitoring Scotland | GMA Air Conditioning"
+description: "Remote HVAC monitoring with 4D Monitoring technology. Real-time alerts, energy data and fault detection for air conditioning systems across Scotland. Call 0131 564 0113."
+crumb: 4D Monitoring
+schemaExtra: '{ "@type": "Service", "name": "4D Monitoring remote HVAC monitoring", "serviceType": "Remote building and HVAC monitoring", "provider": { "@id": "https://gma-ac.com/#business" }, "areaServed": "Scotland" }'
+---
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Smart building technology</span>
+    <h1>4D Monitoring – Making Buildings Intelligent</h1>
+    <p>At GMA Air Conditioning we continually strive to offer the latest technology to improve and optimise the operation & efficiency of your building – which is why we offer 4D Monitoring smart building technology.</p>
+    <p style="margin-top:1.2rem"><img src="/assets/img/4d-monitoring-logo.png" alt="4D Monitoring" width="99" height="64" style="background:#fff;border-radius:8px;padding:6px;display:inline-block;vertical-align:middle"> <strong style="color:#fff;margin-left:.6rem">Official 4D Monitoring partner</strong></p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <div>
+      <span class="eyebrow">Overview</span>
+      <h2>What is 4D Monitoring?</h2>
+      <p>4D Monitoring smart building technology provides the intuitive insights needed to make property portfolios energy efficient – and keep them that way.</p>
+      <p>Sensors are installed throughout your building to provide live data & comprehensive insight into asset operation.</p>
+      <p>4D Monitoring is an inexpensive retrofit technology which does not integrate with BMS, making it an easy solution to roll out across multiple sites.</p>
+    </div>
+    <div class="split__img" style="aspect-ratio:auto;background:#fff"><img src="/assets/img/4d-monitoring-features.webp" alt="4D Monitoring sensor and dashboard features" loading="lazy" width="1233" height="666"></div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section__head"><span class="eyebrow">Capabilities</span><h2>What can we monitor?</h2></div>
+    <ol class="monitor-list">
+      {%- set items = ["HVAC flow and return temperatures","Air temperature","Power output","Water / leak presence","Motion","Footfall","AHU differential pressure","CO₂ levels","Humidity"] %}
+      {%- for i in items %}<li><span>{{ loop.index | pad2 }}</span>{{ i }}</li>{% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid grid--2" style="align-items:start">
+    <div>
+      <span class="eyebrow">The benefits</span>
+      <h2>Why monitor plant?</h2>
+      <p>By enabling a live feed of building plant operation, faults or inefficiencies can be identified easily when plant begins to operate outside of predetermined parameters – for example if a space or water temperature rises above an agreed level. Identifying issues immediately means they can be resolved quickly, leading to significant reductions in both energy consumption and costs.</p>
+      <p>The technology can also improve the occupier experience by highlighting indoor environmental issues such as excessive temperature, humidity & CO₂ levels. GMA Air Conditioning can then advise and implement remedial actions – often at low cost – to improve the conditions.</p>
+    </div>
+    <div>
+      <span class="eyebrow">Cloud portal</span>
+      <h2>Live and historical data</h2>
+      <p>Via 4D Monitoring's cloud-based portal, access asset performance data and occupier environment metrics in real time, or wind back the clock to see historical trends. The information is intuitive, easy to understand and accessible wherever you are.</p>
+      <p>With live data to hand, site managers and service providers can ensure temperatures are kept to agreed levels and energy-consuming plant is operating to agreed timescales.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="grid grid--3">
+      <article class="card"><div class="card__icon">{% icon "chart" %}</div><h3>Real-time insight</h3><p>Stream live performance data from every sensor across your portfolio.</p></article>
+      <article class="card"><div class="card__icon">{% icon "clock" %}</div><h3>Historical trends</h3><p>Wind back the clock to investigate issues and demonstrate efficiency gains.</p></article>
+      <article class="card"><div class="card__icon">{% icon "bolt" %}</div><h3>Easy to roll out</h3><p>Inexpensive retrofit technology – no BMS integration required.</p></article>
+    </div>
+    <div class="callout" style="margin-top:2rem"><strong>6 years installing 4D Monitoring.</strong> GMA Air Conditioning has been installing 4D Monitors for 6 years – giving our clients the experience needed to get the most out of smart building technology from day one.</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__head section__head--center"><span class="eyebrow">In action</span><h2>Live feed</h2></div>
+    <div class="video" style="max-width:960px;margin-inline:auto"><video src="/assets/media/4d-monitoring-demo.mp4" autoplay muted loop playsinline controls preload="metadata"></video></div>
+    <p style="text-align:center;margin-top:2rem"><a class="btn btn--primary" href="/contact/?service=4D%20Remote%20Monitoring">Book a free 4D Monitoring consultation {% icon "arrow" %}</a></p>
+  </div>
+</section>

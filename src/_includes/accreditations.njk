@@ -1,0 +1,11 @@
+<section class="accred" aria-label="Accreditations">
+  <div class="container">
+    <p class="accred__label">Our accreditations</p>
+    <div class="accred__row">
+      {%- for a in accreditations.items %}
+        {%- if a.logo %}<img src="{{ a.logo }}" alt="{{ a.name }}" loading="lazy" title="{{ a.name }}">{% else %}<span class="accred__text">{{ a.name }}</span>{% endif %}
+      {%- endfor %}
+      <iframe src="{{ site.cyberEssentialsWidget }}" title="Cyber Essentials Plus certificate" loading="lazy"></iframe>
+    </div>
+  </div>
+</section>

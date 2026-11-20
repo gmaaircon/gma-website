@@ -1,0 +1,55 @@
+---
+layout: base.njk
+permalink: /contact/
+title: "Contact Us | Free Air Conditioning Quote | GMA Air Conditioning"
+description: "Contact GMA Air Conditioning for a free, no-obligation quote. Call 0131 564 0113 or email info@gma-ac.com. Serving Edinburgh, Scotland & the North of England."
+crumb: Contact
+schemaExtra: '{ "@type": "ContactPage", "url": "https://gma-ac.com/contact/", "name": "Contact GMA Air Conditioning" }'
+---
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Get in touch</span>
+    <h1>Contact Us</h1>
+    <p>Ready to discuss your air conditioning needs? Get in touch with our team today for a free, no-obligation quote.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container contact-grid">
+    <div class="contact-cards">
+      <div class="contact-card"><div class="card__icon">{% icon "phone" %}</div><div><small>Phone</small><a href="tel:{{ site.phoneLink }}">{{ site.phoneDisplay }}</a></div></div>
+      <div class="contact-card"><div class="card__icon">{% icon "mail" %}</div><div><small>Email</small><a href="mailto:{{ site.email }}">{{ site.email }}</a></div></div>
+      <div class="contact-card"><div class="card__icon">{% icon "pin" %}</div><div><small>Based in</small><strong>{{ site.baseLocation }}</strong></div></div>
+      <div class="contact-card"><div class="card__icon">{% icon "building" %}</div><div><small>Service area</small><strong>{{ site.serviceArea }}</strong></div></div>
+      <div class="contact-card"><div class="card__icon">{% icon "clock" %}</div><div><small>Office hours</small><strong>{{ site.hours }}</strong></div></div>
+      <div class="callout"><strong>Breakdown?</strong> For urgent reactive callouts, phone us on <a href="tel:{{ site.phoneLink }}">{{ site.phoneDisplay }}</a> rather than using the form.</div>
+    </div>
+
+    <form class="form" name="quote" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="company_website">
+      <input type="hidden" name="form-name" value="quote">
+      <p class="hp"><label>Leave this empty <input name="company_website"></label></p>
+      <h2 style="font-size:1.6rem">Request a free quote</h2>
+      <div class="form__row">
+        <div class="field"><label for="f-name">Name *</label><input id="f-name" name="name" autocomplete="name" required></div>
+        <div class="field"><label for="f-company">Company / organisation</label><input id="f-company" name="company" autocomplete="organization"></div>
+      </div>
+      <div class="form__row">
+        <div class="field"><label for="f-email">Email *</label><input id="f-email" type="email" name="email" autocomplete="email" required></div>
+        <div class="field"><label for="f-phone">Phone</label><input id="f-phone" type="tel" name="phone" autocomplete="tel"></div>
+      </div>
+      <div class="form__row">
+        <div class="field"><label for="f-service">Service needed</label>
+          <select id="f-service" name="service">
+            <option value="">Please select…</option>
+            {%- for s in services.items %}<option value="{{ s.title }}">{{ s.title }}</option>{% endfor %}
+            <option value="Other">Other / not sure</option>
+          </select>
+        </div>
+        <div class="field"><label for="f-location">Site location (town / postcode)</label><input id="f-location" name="site_location"></div>
+      </div>
+      <div class="field"><label for="f-msg">How can we help? *</label><textarea id="f-msg" name="message" required placeholder="Tell us about the site, the equipment and what you need."></textarea></div>
+      <button class="btn btn--primary" type="submit">Send enquiry {% icon "arrow" %}</button>
+      <small>We'll only use your details to respond to your enquiry. See our <a href="/privacy/">privacy policy</a>.</small>
+    </form>
+  </div>
+</section>

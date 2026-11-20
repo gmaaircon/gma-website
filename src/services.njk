@@ -1,0 +1,39 @@
+---
+layout: base.njk
+permalink: /services/
+title: "AC Installation, Repairs & Maintenance Scotland | GMA Air Conditioning"
+description: "Air conditioning installation, reactive repairs, planned maintenance, TM44 inspections & F-Gas compliance across Edinburgh, Scotland & the North of England. Call 0131 564 0113."
+crumb: Services
+---
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">What we do</span>
+    <h1>Our Services</h1>
+    <p>With over 25 years in the industry, we offer a comprehensive range of air conditioning & ventilation services tailored to your needs.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid grid--3">
+    {%- for s in services.items %}
+    <article class="card" id="{{ s.title | slugify2 }}">
+      <div class="card__icon">{% icon s.icon %}</div>
+      <h3>{{ s.title }}</h3>
+      <p>{{ s.text }}</p>
+      {% if s.link %}<a class="card__link" href="{{ s.link }}">Find out more {% icon "arrow" %}</a>{% else %}<a class="card__link" href="/contact/?service={{ s.title | urlencode }}">Request a quote {% icon "arrow" %}</a>{% endif %}
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container split">
+    <div>
+      <span class="eyebrow">Need a quote?</span>
+      <h2>Free site surveys & competitive pricing</h2>
+      <p>Get in touch with our team to discuss your requirements. We offer free site surveys and competitive pricing across all our services – from a single repair to multi-site planned maintenance contracts.</p>
+      <a class="btn btn--primary" href="/contact/">Get in touch {% icon "arrow" %}</a>
+    </div>
+    <div class="split__img"><img src="/assets/img/gallery/commercial-daikin-units.webp" alt="Commercial Daikin outdoor units" loading="lazy" width="788" height="1400" style="object-position:center 30%"></div>
+  </div>
+</section>

@@ -1,0 +1,14 @@
+{
+  "faq": [
+    { "q": "Is TM44 an inspection?", "a": "Yes. TM44 is the CIBSE Technical Memorandum that defines how mandatory air conditioning inspections must be carried out in the UK. It sets out the methodology, the assessor qualifications and the report format required under the Energy Performance of Buildings Directive (EPBD)." },
+    { "q": "Is a TM44 inspection a legal requirement?", "a": "Yes. Under the Energy Performance of Buildings (Certificates and Inspections) Regulations 2007, every air conditioning system with an effective rated output of more than 12kW must have a valid TM44 inspection report." },
+    { "q": "Which buildings need a TM44 inspection?", "a": "Any commercial building with air conditioning over 12kW combined output – including offices, retail units, hotels, restaurants, schools and healthcare premises. The 12kW threshold is the combined cooling output of all units within the building, not each individual unit." },
+    { "q": "How often must a TM44 inspection be carried out?", "a": "At intervals not exceeding five years in England, Wales and Northern Ireland. In Scotland the interval can be as short as three years where systems are assessed as poorly maintained or inefficient." },
+    { "q": "Who is responsible for arranging it?", "a": "The building owner, occupier or whoever has control of the air conditioning system (the 'responsible person'). Failure to arrange an inspection or produce the report on request can result in fines." },
+    { "q": "What is the penalty for non-compliance?", "a": "Failure to produce a valid TM44 report on request can result in a fixed penalty of £300 per offence, which can be repeated at the discretion of Trading Standards on a daily, monthly, quarterly or annual basis." },
+    { "q": "What's the difference between Level 3 and Level 4?", "a": "Level 3 covers simple split and packaged systems. Level 4 covers more complex centralised systems such as VRF, chillers and air handling units. GMA's assessors are accredited for both Level 3 and Level 4 inspections." },
+    { "q": "What does the TM44 report include?", "a": "An assessment of the system's efficiency, sizing relative to the cooling load, maintenance condition, controls and set-up – plus practical no-cost and low-cost recommendations to reduce energy use, carbon emissions and running costs." },
+    { "q": "How long does an inspection take?", "a": "It depends on the size and complexity of the building and the number of units. Most small to mid-sized sites are inspected in a single visit. We'll confirm timing when you send us your details." },
+    { "q": "Are GMA assessors accredited?", "a": "Yes. Our assessors are fully qualified to carry out Level 3 and Level 4 TM44 inspections and are accredited with Sterling Accreditation." }
+  ]
+}

@@ -1,0 +1,73 @@
+---
+layout: base.njk
+permalink: /tm44-inspections/
+title: "TM44 Air Conditioning Inspections Scotland | GMA Air Conditioning"
+description: "Statutory TM44 air conditioning inspections by accredited energy assessors across Edinburgh & Scotland. Ensure legal compliance and receive energy efficiency recommendations."
+crumb: TM44 Inspections
+---
+<section class="page-hero page-hero--image" style="background-image:url('/assets/img/tm44-hero.webp')">
+  <div class="container">
+    <span class="eyebrow">Compliance & efficiency</span>
+    <h1>TM44 Air Conditioning Inspections</h1>
+    <p>A mandatory requirement designed to ensure AC systems perform efficiently – fully accredited Level 3 and Level 4 inspections delivered by GMA Air Conditioning.</p>
+    <div class="hero__actions"><a class="btn btn--primary" href="/contact/?service=TM44%20Air%20Conditioning%20Inspections">TM44 enquiry {% icon "arrow" %}</a><a class="btn btn--outline-light" href="mailto:{{ site.email }}?subject=TM44%20enquiry">{% icon "mail" %} {{ site.email }}</a></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid grid--2" style="align-items:start">
+    <div>
+      <span class="eyebrow">Overview</span>
+      <h2>What are TM44 inspections?</h2>
+      <p>Air conditioning inspections are a mandatory requirement designed to ensure that AC systems perform efficiently. This is contained in the revised Energy Performance of Buildings Directive (EPBD), progressively implemented from January 2007, and is now a requirement in England and Wales, Scotland and Northern Ireland.</p>
+    </div>
+    <div>
+      <span class="eyebrow">Scope</span>
+      <h2>What it covers</h2>
+      <p>All air conditioning systems with an output of more than 12kW require an inspection at intervals not exceeding five years – but in Scotland this can be as little as three years if systems are assessed as poorly maintained and inefficient.</p>
+      <p>Inspections must be carried out to CIBSE TM44, which sets out the qualifications required by assessors and the inspection process. Inspectors must also make recommendations to improve the efficiency of the plant.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container split" style="align-items:start">
+    <div>
+      <span class="eyebrow">The process</span>
+      <h2>What it involves</h2>
+      <div class="steps">
+        {%- set steps = ["Pre-inspection collection of basic information","On-site system inspection","Evaluation of maintenance standards, with reference to good practice","Evaluation of controls and system set-up","Production of report for the responsible person, including recommendations for improvement"] %}
+        {%- for s in steps %}<div class="step"><b>{{ loop.index | pad2 }}</b><p>{{ s }}</p></div>{% endfor %}
+      </div>
+    </div>
+    <div>
+      <span class="eyebrow">The benefits</span>
+      <h2>Why it matters</h2>
+      <div class="grid" style="gap:1rem">
+        <article class="card"><div class="card__icon">{% icon "shield" %}</div><h3>Legal compliance</h3><p>Failure to produce a report on request can result in fines of £300 per offence, which can be repeated at the discretion of Trading Standards on a daily, monthly, quarterly or annual basis.</p></article>
+        <article class="card"><div class="card__icon">{% icon "bolt" %}</div><h3>Reduced energy & costs</h3><p>Following the recommendations can improve system efficiency, reducing energy use, carbon emissions and running costs.</p></article>
+        <article class="card"><div class="card__icon">{% icon "building" %}</div><h3>Better building conditions</h3><p>Improved system performance leads to longer equipment life and better building conditions.</p></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="panel">
+      <span class="eyebrow">Our expertise</span>
+      <h2>How can GMA help?</h2>
+      <p>Our assessors are fully qualified to carry out Level 3 (simple system) and Level 4 (complex system) air conditioning inspections (TM44) and are fully accredited with Sterling Accreditation. Following an inspection we provide recommendations – including no-cost and low-cost measures – to improve overall system efficiency and reduce running costs.</p>
+      <a class="btn btn--primary" href="/contact/?service=TM44%20Air%20Conditioning%20Inspections">Book your TM44 inspection {% icon "arrow" %}</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section__head section__head--center"><span class="eyebrow">FAQ</span><h2>TM44 frequently asked questions</h2><p class="lead">Everything you need to know about TM44 air conditioning inspections, compliance and what to expect.</p></div>
+    <div class="faq">
+      {%- for f in tm44.faq %}<details><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>{% endfor %}
+    </div>
+  </div>
+</section>

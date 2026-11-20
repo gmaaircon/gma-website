@@ -1,0 +1,121 @@
+---
+layout: base.njk
+title: "Air Conditioning Edinburgh & Scotland | GMA Air Conditioning"
+description: "Air conditioning installation, servicing & repairs across Edinburgh, Scotland & the North of England. F-Gas certified engineers with 25+ years' experience. Free quotes."
+heroImage: /assets/img/hero-rooftop.webp
+bodyClass: home
+---
+<section class="hero">
+  <div class="hero__bg" style="background-image:url('/assets/img/hero-rooftop.webp')" role="img" aria-label="Rooftop air conditioning condensers installed by GMA"></div>
+  <div class="container">
+    <div class="hero__inner">
+      <span class="eyebrow">{{ home.heroEyebrow }}</span>
+      <h1>{{ home.heroTitle }} <span>{{ home.heroHighlight }}</span></h1>
+      <p>{{ home.heroText }}</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="/contact/">Get a free quote {% icon "arrow" %}</a>
+        <a class="btn btn--outline-light" href="/services/">Our services</a>
+        <a class="btn btn--outline-light" href="tel:{{ site.phoneLink }}">{% icon "phone" %} {{ site.phoneDisplay }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stats" aria-label="Key facts">
+  <div class="container stats__grid">
+    {%- for s in home.stats %}<div class="stat"><strong>{{ s.value }}</strong><span>{{ s.label }}</span></div>{% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <div>
+      <span class="eyebrow">About us</span>
+      <h2>{{ home.aboutTitle }}</h2>
+      {%- for p in home.aboutText %}<p>{{ p }}</p>{% endfor %}
+      <a class="btn btn--outline" href="/about/">Learn more about us {% icon "arrow" %}</a>
+    </div>
+    <div class="split__img"><img src="/assets/img/gallery/daikin-vrv-commercial.webp" alt="Daikin VRV commercial system installed by GMA engineers" loading="lazy" width="1400" height="1400"></div>
+  </div>
+</section>
+
+{% include "accreditations.njk" %}
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section__head section__head--center">
+      <span class="eyebrow">What we do</span>
+      <h2>Our Services</h2>
+      <p class="lead">Comprehensive air conditioning & ventilation services with over 25 years of expertise.</p>
+    </div>
+    <div class="grid grid--4">
+      {%- for s in services.items %}{% if s.featured %}
+      <article class="card">
+        <div class="card__icon">{% icon s.icon %}</div>
+        <h3>{{ s.title }}</h3>
+        <p>{{ s.short }}</p>
+      </article>
+      {%- endif %}{% endfor %}
+    </div>
+    <p style="text-align:center;margin-top:2rem"><a class="btn btn--primary" href="/services/">View all services {% icon "arrow" %}</a></p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__head section__head--center">
+      <span class="eyebrow">Sectors</span>
+      <h2>Areas of Expertise</h2>
+      <p class="lead">Our engineers have extensive experience across a wide range of industries.</p>
+    </div>
+    <div class="chips" style="justify-content:center">
+      {%- for s in sectors.items %}<a class="chip" href="/expertise/#{{ s.title | slugify2 }}">{% icon s.icon %} {{ s.title }}</a>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container split">
+    <div class="split__img"><img src="/assets/img/gallery/mitsubishi-electric-service.webp" alt="GMA engineer servicing a Mitsubishi Electric system" loading="lazy" width="1400" height="1050"></div>
+    <div>
+      <span class="eyebrow">Why GMA</span>
+      <h2>Why Choose GMA Air Conditioning?</h2>
+      <ul class="checklist">
+        {%- for w in home.whyChoose %}<li>{% icon "check" %} {{ w }}</li>{% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__head section__head--center">
+      <span class="eyebrow">Recent projects</span>
+      <h2>Our Work in Action</h2>
+    </div>
+    <div class="grid grid--4">
+      {%- for g in gallery.items %}{% if g.home %}
+      <figure class="tile" style="margin:0"><img src="{{ g.thumb or g.image }}" alt="{{ g.title }}" loading="lazy"><figcaption class="tile__cap"><small>{{ g.category }}</small>{{ g.title }}</figcaption></figure>
+      {%- endif %}{% endfor %}
+    </div>
+    <p style="text-align:center;margin-top:2rem"><a class="btn btn--outline" href="/gallery/">View full gallery {% icon "arrow" %}</a></p>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section__head section__head--center">
+      <span class="eyebrow">Testimonials</span>
+      <h2>What Our Clients Say</h2>
+    </div>
+    <div class="quotes">
+      {%- for t in testimonials.items %}
+      <blockquote class="quote">
+        <div class="quote__stars" aria-label="5 out of 5 stars">{% icon "star" %}{% icon "star" %}{% icon "star" %}{% icon "star" %}{% icon "star" %}</div>
+        <p>“{{ t.text }}”</p>
+        <cite>{{ t.name }}</cite>
+      </blockquote>
+      {%- endfor %}
+    </div>
+  </div>
+</section>

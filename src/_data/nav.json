@@ -1,0 +1,11 @@
+[
+  { "label": "Home", "url": "/" },
+  { "label": "About", "url": "/about/" },
+  { "label": "Services", "url": "/services/" },
+  { "label": "Expertise", "url": "/expertise/" },
+  { "label": "4D Monitoring", "url": "/4d-monitoring/" },
+  { "label": "TM44", "url": "/tm44-inspections/" },
+  { "label": "Gallery", "url": "/gallery/" },
+  { "label": "Blog", "url": "/blog/" },
+  { "label": "Contact", "url": "/contact/" }
+]

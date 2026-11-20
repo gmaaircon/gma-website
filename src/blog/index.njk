@@ -1,0 +1,29 @@
+---
+layout: base.njk
+permalink: /blog/
+title: "HVAC News & Advice | GMA Air Conditioning Blog"
+description: "Expert HVAC advice, industry news and energy-saving tips from the GMA Air Conditioning team. Serving Edinburgh, Scotland & the North of England."
+crumb: Blog
+---
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Blog & insights</span>
+    <h1>News, guides & updates</h1>
+    <p>From the GMA team — air conditioning, ventilation, compliance, energy and beyond.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container grid grid--3">
+    {%- for post in collections.posts %}
+    <a class="card post-card" href="{{ post.url }}">
+      {% if post.data.image %}<img src="{{ post.data.image }}" alt="" loading="lazy" style="border-radius:10px;margin-bottom:1rem;aspect-ratio:16/10;object-fit:cover;width:100%">{% endif %}
+      <time datetime="{{ post.date | isoDate }}">{{ post.date | ukDate }}</time>
+      <h3 style="margin-top:.4rem">{{ post.data.title }}</h3>
+      <p>{{ post.data.summary }}</p>
+      <span class="card__link">Read more {% icon "arrow" %}</span>
+    </a>
+    {%- else %}
+    <p>New posts coming soon.</p>
+    {%- endfor %}
+  </div>
+</section>

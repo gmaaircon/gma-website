@@ -1,0 +1,35 @@
+---
+layout: base.njk
+permalink: /expertise/
+title: "Commercial, Healthcare & Data Centre Cooling | GMA Air Conditioning"
+description: "GMA Air Conditioning delivers specialist HVAC solutions for commercial offices, healthcare facilities, data centres, retail, residential and BESS sites across Scotland."
+crumb: Expertise
+---
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Sectors</span>
+    <h1>Areas of Expertise</h1>
+    <p>Our engineers have extensive experience across a wide range of industries, delivering tailored climate control solutions for every environment.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid grid--3">
+    {%- for s in sectors.items %}
+    <article class="card" id="{{ s.title | slugify2 }}">
+      <div class="card__icon">{% icon s.icon %}</div>
+      <h3>{{ s.title }}</h3>
+      <p>{{ s.text }}</p>
+      <ul>{% for p in s.points %}<li>{% icon "check" %} {{ p }}</li>{% endfor %}</ul>
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container" style="text-align:center;max-width:760px">
+    <h2>Have a Project in Mind?</h2>
+    <p class="lead">Whatever your sector, our experienced team can deliver the right climate control solution. Get in touch for a free consultation.</p>
+    <a class="btn btn--primary" href="/contact/">Contact us {% icon "arrow" %}</a>
+  </div>
+</section>

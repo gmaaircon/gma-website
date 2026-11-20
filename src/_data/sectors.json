@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "icon": "battery",
+      "title": "BESS Battery Storage Sites",
+      "text": "Specialised cooling solutions for battery energy storage systems, ensuring optimal operating temperatures and preventing thermal runaway to protect critical energy infrastructure.",
+      "points": [
+        "Temperature-controlled environments",
+        "24/7 monitoring solutions",
+        "Emergency cooling systems"
+      ]
+    },
+    {
+      "icon": "building",
+      "title": "Commercial",
+      "text": "Complete HVAC solutions for offices, hotels, restaurants, and commercial premises. From small retail units to large multi-storey office buildings.",
+      "points": [
+        "VRV/VRF multi-zone systems",
+        "Planned maintenance contracts",
+        "Energy-efficient upgrades"
+      ]
+    },
+    {
+      "icon": "hospital",
+      "title": "Healthcare",
+      "text": "Critical environment climate control for hospitals, clinics, pharmacies, and care homes. Full compliance with SHTM 03-01 and HTM standards.",
+      "points": [
+        "SHTM 03-01 compliant",
+        "Clean room ventilation",
+        "Infection control solutions"
+      ]
+    },
+    {
+      "icon": "wave",
+      "title": "Leisure",
+      "text": "Climate control for gyms, swimming pools, hotels, spas, and leisure centres. Specialised in humidity control and ventilation for pool areas.",
+      "points": [
+        "Pool hall dehumidification",
+        "Gym ventilation",
+        "Spa climate control"
+      ]
+    },
+    {
+      "icon": "server",
+      "title": "Data Centres / IT Cooling",
+      "text": "Precision cooling for server rooms and data centres. Ensuring consistent temperatures to protect critical IT infrastructure and prevent downtime.",
+      "points": [
+        "Precision cooling systems",
+        "Redundancy solutions",
+        "Hot/cold aisle containment"
+      ]
+    },
+    {
+      "icon": "bag",
+      "title": "Retail",
+      "text": "Comfortable shopping environments with energy-efficient air conditioning for retail stores, shopping centres, and showrooms.",
+      "points": [
+        "Ceiling cassette systems",
+        "Ducted solutions",
+        "Energy management"
+      ]
+    },
+    {
+      "icon": "home",
+      "title": "Residential",
+      "text": "Home air conditioning installations from single room solutions to whole-house systems. Quiet, efficient, and aesthetically pleasing wall-mounted or concealed units.",
+      "points": [
+        "Wall-mounted split systems",
+        "Multi-room solutions",
+        "Heat pump heating & cooling"
+      ]
+    }
+  ]
+}

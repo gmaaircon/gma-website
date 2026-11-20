@@ -1,0 +1,33 @@
+---
+layout: base.njk
+permalink: /gallery/
+title: "Air Conditioning Projects Gallery | GMA Air Conditioning"
+description: "Browse GMA Air Conditioning's project gallery — commercial rooftop installations, Daikin VRV systems, healthcare HVAC and more across Edinburgh and Scotland."
+crumb: Gallery
+---
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Our work</span>
+    <h1>Project Gallery</h1>
+    <p>Browse our recent installations, maintenance work, and commercial projects across Scotland and the North of England.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {%- set cats = ["All"] %}
+    {%- for g in gallery.items %}{% if g.category not in cats %}{% set cats = (cats.push(g.category), cats) %}{% endif %}{% endfor %}
+    <div class="filters" role="group" aria-label="Filter projects">
+      {%- for c in cats %}<button type="button" data-cat="{{ c }}" aria-pressed="{{ 'true' if c == 'All' else 'false' }}">{{ c }}</button>{% endfor %}
+    </div>
+    <div class="gallery-grid">
+      {%- for g in gallery.items %}
+      <button class="tile" type="button" data-cat="{{ g.category }}" data-full="{{ g.image }}" data-title="{{ g.title }}" aria-label="View {{ g.title }}">
+        <img src="{{ g.thumb or g.image }}" alt="{{ g.title }}" loading="lazy">
+        <span class="tile__cap"><small>{{ g.category }}</small>{{ g.title }}</span>
+      </button>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Project image"><button type="button" aria-label="Close">×</button><img alt=""></div>

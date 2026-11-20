@@ -1,0 +1,23 @@
+{
+  "name": "GMA Air Conditioning",
+  "legalName": "GMA Air Conditioning Ltd",
+  "url": "https://gma-ac.com",
+  "tagline": "Heating, Ventilating & Air Conditioning Service",
+  "phoneDisplay": "0131 564 0113",
+  "phoneLink": "+441315640113",
+  "email": "info@gma-ac.com",
+  "baseLocation": "Edinburgh & Midlothian",
+  "serviceArea": "Scotland & the North of England",
+  "hours": "Monday–Friday, 9:00am – 5:00pm",
+  "social": {
+    "facebook": "https://www.facebook.com/287770094428406",
+    "instagram": "https://www.instagram.com/gma_air_conditioning",
+    "linkedin": "https://www.linkedin.com/company/gma-air-conditioning/"
+  },
+  "cyberEssentialsWidget": "https://registry.blockmarktech.com/certificates/0b011288-1666-4edd-a60e-4fd21416ba5c/widget/?tooltip_position=bottom&theme=transparent",
+  "footerBlurb": "Delivering expert air conditioning, ventilation & energy services across Scotland & the North of England for over 25 years.",
+  "footerBadges": "F-Gas Certified · REFCOM Registered · SafeContractor Approved · SEPA Registered Waste Carrier",
+  "companyNumber": "SC809325",
+  "registeredIn": "Scotland",
+  "registeredOffice": "1 Thorburn Walk, Bonnyrigg, Midlothian, EH19 3TB"
+}

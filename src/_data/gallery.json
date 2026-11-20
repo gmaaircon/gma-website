@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "image": "/assets/img/gallery/rooftop-multi-system.webp",
+      "thumb": "/assets/img/gallery/rooftop-multi-system-sm.webp",
+      "title": "Rooftop Multi-System Installation",
+      "category": "Commercial",
+      "home": true
+    },
+    {
+      "image": "/assets/img/gallery/daikin-vrv-commercial.webp",
+      "thumb": "/assets/img/gallery/daikin-vrv-commercial-sm.webp",
+      "title": "Daikin VRV Commercial System",
+      "category": "Commercial",
+      "home": true
+    },
+    {
+      "image": "/assets/img/gallery/mitsubishi-electric-service.webp",
+      "thumb": "/assets/img/gallery/mitsubishi-electric-service-sm.webp",
+      "title": "Mitsubishi Electric Service",
+      "category": "Service & Maintenance",
+      "home": true
+    },
+    {
+      "image": "/assets/img/gallery/residential-installation.webp",
+      "thumb": "/assets/img/gallery/residential-installation-sm.webp",
+      "title": "Residential Installation",
+      "category": "Residential",
+      "home": true
+    },
+    {
+      "image": "/assets/img/gallery/commercial-daikin-units.webp",
+      "thumb": "/assets/img/gallery/commercial-daikin-units-sm.webp",
+      "title": "Commercial Daikin Units",
+      "category": "Commercial"
+    },
+    {
+      "image": "/assets/img/gallery/wall-mounted-indoor-unit.webp",
+      "thumb": "/assets/img/gallery/wall-mounted-indoor-unit-sm.webp",
+      "title": "Toshiba Haori Wall-Mounted Unit",
+      "category": "Residential"
+    },
+    {
+      "image": "/assets/img/gallery/dantherm-ahu-system.webp",
+      "thumb": "/assets/img/gallery/dantherm-ahu-system-sm.webp",
+      "title": "Dantherm AHU System",
+      "category": "Commercial"
+    },
+    {
+      "image": "/assets/img/gallery/industry-events-training.webp",
+      "thumb": "/assets/img/gallery/industry-events-training-sm.webp",
+      "title": "Industry Events & Training",
+      "category": "Team"
+    }
+  ]
+}

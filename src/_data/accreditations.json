@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "name": "Mitsubishi Electric Accredited Installer",
+      "logo": "/assets/img/accreditations/mitsubishi-electric.webp"
+    },
+    {
+      "name": "Daikin Certified Installer",
+      "logo": "/assets/img/accreditations/daikin.webp"
+    },
+    {
+      "name": "SafeContractor Approved",
+      "logo": "/assets/img/accreditations/safecontractor.webp"
+    },
+    {
+      "name": "REFCOM F-Gas Registered",
+      "logo": "/assets/img/accreditations/refcom.webp"
+    },
+    {
+      "name": "Sterling Accreditation",
+      "logo": "/assets/img/accreditations/sterling.webp"
+    },
+    {
+      "name": "Achilles Silver Plus",
+      "logo": "/assets/img/accreditations/achilles.webp"
+    },
+    {
+      "name": "4D Monitoring Partner",
+      "logo": "/assets/img/accreditations/4d-monitoring.webp"
+    },
+    {
+      "name": "Toshiba HVAC 7-Year Warranty Partner",
+      "logo": ""
+    },
+    {
+      "name": "The F-Gas Register",
+      "logo": ""
+    }
+  ]
+}

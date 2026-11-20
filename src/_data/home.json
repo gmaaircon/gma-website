@@ -1,0 +1,29 @@
+{
+  "heroEyebrow": "Scotland & North of England",
+  "heroTitle": "Quality Air Conditioning & Climate Control",
+  "heroHighlight": "Across Scotland",
+  "heroText": "Delivering expert air conditioning, ventilation & energy services to the commercial, residential, healthcare and retail sectors across Scotland & the North of England.",
+  "stats": [
+    { "value": "25+", "label": "Years experience" },
+    { "value": "500+", "label": "Projects completed" },
+    { "value": "100%", "label": "F-Gas compliant" },
+    { "value": "24/7", "label": "Emergency callout" }
+  ],
+  "aboutTitle": "Scotland's Trusted HVAC Specialists",
+  "aboutText": [
+    "At GMA Air Conditioning, our mission is to provide quality air conditioning and ventilation services. We believe in treating our customers with honesty and respect, and we are committed to delivering exceptional service every time.",
+    "Founded with a passion for creating comfortable indoor environments, we've grown into one of Scotland's most trusted HVAC specialists. Our team of fully qualified engineers works across all major manufacturers including Daikin, Mitsubishi Electric, Toshiba, and more."
+  ],
+  "whyChoose": [
+    "Over 25 years of industry experience",
+    "F-Gas certified & REFCOM registered",
+    "SafeContractor approved",
+    "Toshiba HVAC 7-year warranty partner",
+    "All major manufacturers serviced",
+    "Free site surveys & competitive pricing",
+    "Scotland & North of England coverage",
+    "Fully qualified, expert engineers"
+  ],
+  "ctaTitle": "Ready to Get Started?",
+  "ctaText": "Whether you need a new installation, repair, or maintenance contract, our team is here to help. Get in touch for a free, no-obligation quote."
+}
