@@ -129,57 +129,53 @@
   },
   {
     "slug": "air-source-heat-pumps",
-    "nav": "Heat pumps",
+    "nav": "Heat pump servicing",
     "icon": "home",
-    "h1": "Domestic Air Source Heat Pumps & Unvented Cylinders",
-    "title": "Air Source Heat Pumps & Unvented Cylinders Edinburgh | GMA",
-    "description": "Domestic air source heat pump installation, servicing and repairs, plus G3-qualified unvented cylinder work, across Edinburgh, the Lothians and Scotland. Free home survey.",
-    "intro": "An air source heat pump takes heat from the outside air to heat your home and hot water, even in a Scottish winter. GMA designs, installs, services and repairs domestic air source heat pumps and the unvented hot water cylinders that go with them. Our refrigeration-trained engineers work on the same technology every day in commercial air conditioning.",
+    "h1": "Air Source Heat Pump & Unvented Cylinder Servicing",
+    "title": "Air Source Heat Pump Servicing & Repairs Edinburgh | GMA",
+    "description": "Domestic air source heat pump servicing, maintenance and repairs, plus G3-qualified unvented cylinder servicing, across Edinburgh, the Lothians and Scotland.",
+    "intro": "Keep your air source heat pump and unvented hot water cylinder running efficiently, safely and within warranty. GMA services, maintains and repairs domestic heat pumps and unvented cylinders from all major manufacturers, whoever installed them. Our refrigeration-trained engineers work on the same technology every day in commercial air conditioning.",
     "sections": [
       {
-        "h": "Our domestic heat pump services",
+        "h": "Our heat pump service and maintenance",
         "list": [
-          "Free home survey and heat loss calculation to size the system correctly",
-          "Supply and installation of air-to-water heat pumps from leading manufacturers",
-          "Unvented hot water cylinder supply, installation and replacement by G3-qualified engineers",
-          "Radiator and pipework upgrades where needed for low-temperature running",
-          "Commissioning, controls set-up and a clear handover so you know how to get the best from it",
-          "Annual servicing, fault-finding and repairs, including systems we didn't install"
+          "Annual servicing of domestic air source heat pumps",
+          "Unvented hot water cylinder servicing and safety checks by G3-qualified engineers",
+          "Breakdown callouts, fault-finding and repairs",
+          "Refrigerant circuit checks and leak testing by F-Gas certified engineers",
+          "Controls, settings and efficiency checks so your system isn't costing more than it should",
+          "A written service report after every visit"
         ]
       },
       {
-        "h": "Unvented hot water cylinders",
-        "text": "An unvented cylinder runs at mains pressure, giving strong showers and hot water to several taps at once, and frees up loft space by removing the cold water tank. Heat pump cylinders have a large internal coil sized for the lower flow temperatures heat pumps run at. Our engineers hold the G3 unvented hot water qualification, so we install, replace and service unvented cylinders safely and to Building Standards, including the safety checks on the expansion vessel, pressure and temperature relief valves and discharge pipework that should be carried out every year."
+        "h": "What a heat pump service covers",
+        "text": "A GMA heat pump service covers the outdoor unit and coil, fans and condensate drainage, the refrigerant circuit, system pressure and water quality, filters and strainers, pumps and valves, and controls and settings. We check the system is running as it should and tell you about anything that needs attention."
       },
       {
-        "h": "Why service your heat pump every year",
-        "text": "Annual servicing keeps your heat pump efficient and reliable and is usually a condition of the manufacturer's warranty. A GMA service covers the outdoor unit, refrigerant circuit, system pressure and water quality, filters and strainers, controls and settings, and the unvented cylinder safety checks, with a written report afterwards."
+        "h": "Unvented cylinder servicing",
+        "text": "Our engineers hold the G3 unvented hot water qualification. Unvented cylinders run at mains pressure, so their safety devices should be checked every year. We check the expansion vessel charge, pressure and temperature relief valves, pressure reducing valve, tundish and discharge pipework, and the cylinder's controls and thermostats."
       },
       {
-        "h": "Funding for heat pumps",
-        "text": "Homeowners in Scotland may be able to get help with the cost of a heat pump through the Home Energy Scotland Grant and Loan, and in England the Boiler Upgrade Scheme can apply. Each scheme has its own eligibility rules and installer requirements, so check with Home Energy Scotland or Ofgem before you commit, and ask us when you book your survey."
+        "h": "Why annual servicing matters",
+        "text": "Regular servicing keeps your heat pump efficient and reliable, catches small faults before they become breakdowns, and is usually a condition of the manufacturer's warranty. Most manufacturers require a service every year to keep the warranty valid."
       }
     ],
     "faq": [
-      {
-        "q": "Will a heat pump work in Scotland's climate?",
-        "a": "Yes. Modern air source heat pumps keep working well below freezing. The key is correct sizing from a proper heat loss calculation and radiators that can deliver enough heat at lower flow temperatures, which we check at survey."
-      },
-      {
-        "q": "Do I need an unvented cylinder with a heat pump?",
-        "a": "Most heat pump systems need a hot water cylinder, because a heat pump can't heat water instantly like a combi boiler. An unvented cylinder designed for heat pumps is the usual choice and gives you mains-pressure hot water."
-      },
-      {
-        "q": "Are your engineers G3 qualified for unvented cylinders?",
-        "a": "Yes. Our engineers hold the G3 unvented hot water qualification, which covers the safe installation and servicing of unvented cylinders and their safety devices."
-      },
       {
         "q": "How often should a heat pump and unvented cylinder be serviced?",
         "a": "Once a year. Manufacturers generally require annual servicing to keep the warranty valid, and unvented cylinders should have their safety devices checked annually."
       },
       {
-        "q": "Can you service or repair a heat pump someone else installed?",
+        "q": "Can you service a heat pump someone else installed?",
         "a": "Yes. We service and repair air source heat pumps and unvented cylinders from all major manufacturers, whoever installed them."
+      },
+      {
+        "q": "Are your engineers G3 qualified for unvented cylinders?",
+        "a": "Yes. Our engineers hold the G3 unvented hot water qualification, which covers the safe servicing of unvented cylinders and their safety devices."
+      },
+      {
+        "q": "Do you install heat pumps?",
+        "a": "No. We focus on servicing, maintenance and repairs of existing domestic heat pumps and unvented cylinders."
       }
     ]
   },
