@@ -25,11 +25,20 @@
       "link": "/air-conditioning-installation/"
     },
     {
+      "icon": "home",
+      "title": "Domestic Air Source Heat Pumps",
+      "short": "Heat pump installation, servicing and unvented cylinders for homes.",
+      "text": "Design, installation, servicing and repair of domestic air source heat pumps, including unvented hot water cylinders. Free home survey and heat loss calculation.",
+      "featured": true,
+      "link": "/air-source-heat-pumps/"
+    },
+    {
       "icon": "clipboard",
       "title": "TM44 Air Conditioning Inspections",
       "short": "Statutory energy inspections for systems over 12kW.",
       "text": "Mandatory energy assessments for air conditioning systems over 12kW, as required by UK building regulations. We provide full compliance reports.",
-      "link": "/tm44-inspections/"
+      "link": "/tm44-inspections/",
+      "featured": true
     },
     {
       "icon": "shield",
