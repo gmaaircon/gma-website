@@ -41,7 +41,7 @@
         "email": "{{ site.email }}",
         "address": { "@type": "PostalAddress", "addressRegion": "Scotland", "addressCountry": "GB" },
         "areaServed": [{% for a in areas %}{ "@type": "Place", "name": "{{ a.name }}" }, {% endfor %}{ "@type": "Place", "name": "Scotland" }],
-        "knowsAbout": ["Air conditioning installation", "Air conditioning maintenance", "Air conditioning repair", "TM44 air conditioning inspections", "F-Gas leak checks", "SHTM 03-01 AHU inspections", "BESS cooling", "Heat pumps", "Air source heat pump installation", "Unvented hot water cylinders"],
+        "knowsAbout": ["Air conditioning installation", "Air conditioning maintenance", "Air conditioning repair", "TM44 air conditioning inspections", "F-Gas leak checks", "SHTM 03-01 AHU inspections", "BESS cooling", "Heat pumps", "Air source heat pump servicing", "Unvented hot water cylinder servicing"],
         "openingHours": ["Mo-Fr 07:00-16:30", "Sa-Su 08:00-16:00"],
         "sameAs": ["{{ site.social.facebook }}", "{{ site.social.instagram }}", "{{ site.social.linkedin }}"]
       },
