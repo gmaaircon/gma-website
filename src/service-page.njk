@@ -1,0 +1,64 @@
+---
+layout: base.njk
+pagination:
+  data: servicePages
+  size: 1
+  alias: sp
+  addAllPagesToCollections: true
+permalink: "/{{ sp.slug }}/"
+eleventyComputed:
+  title: "{{ sp.title | safe }}"
+  description: "{{ sp.description | safe }}"
+  crumb: "{{ sp.h1 | safe }}"
+---
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow"><a href="/services/" style="color:inherit;text-decoration:none">Services</a></span>
+    <h1>{{ sp.h1 }}</h1>
+    <p>{{ sp.intro }}</p>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="/contact/?service={{ sp.h1 | urlencode }}">Get a free quote {% icon "arrow" %}</a>
+      <a class="btn btn--outline-light" href="tel:{{ site.phoneLink }}">{% icon "phone" %} {{ site.phoneDisplay }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container prose" style="max-width:860px">
+    {%- for s in sp.sections %}
+    <h2>{{ s.h }}</h2>
+    {% if s.text %}<p>{{ s.text }}</p>{% endif %}
+    {% if s.list %}<ul class="checklist" style="grid-template-columns:1fr;margin-bottom:1.5rem">{% for i in s.list %}<li>{% icon "check" %} {{ i }}</li>{% endfor %}</ul>{% endif %}
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section__head section__head--center"><span class="eyebrow">Areas we cover</span><h2>{{ sp.nav }} across Scotland & the North of England</h2></div>
+    <div class="chips" style="justify-content:center">
+      {%- for a in areas %}<a class="chip" href="/areas/{{ a.slug }}/">{% icon "pin" %} {{ a.name }}</a>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__head section__head--center"><span class="eyebrow">FAQ</span><h2>{{ sp.nav }} – common questions</h2></div>
+    <div class="faq">
+      {%- for f in sp.faq %}<details><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section__head section__head--center"><span class="eyebrow">Related services</span><h2>More from GMA</h2></div>
+    <div class="grid grid--3">
+      {%- set shown = 0 %}
+      {%- for o in servicePages %}{% if o.slug != sp.slug and shown < 3 %}{% set shown = shown + 1 %}
+      <a class="card post-card" href="/{{ o.slug }}/"><div class="card__icon">{% icon o.icon %}</div><h3>{{ o.h1 }}</h3><p>{{ o.description | truncate(120) }}</p><span class="card__link">Find out more {% icon "arrow" %}</span></a>
+      {%- endif %}{% endfor %}
+    </div>
+  </div>
+</section>

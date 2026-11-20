@@ -5,21 +5,24 @@
       "title": "Service & Maintenance",
       "short": "Planned preventative maintenance to keep systems running efficiently.",
       "text": "Planned preventative maintenance programmes to keep your systems running efficiently, reduce breakdowns, and extend equipment life. We service all major manufacturers.",
-      "featured": true
+      "featured": true,
+      "link": "/air-conditioning-maintenance/"
     },
     {
       "icon": "bolt",
       "title": "Reactive Repairs",
       "short": "Fast-response callout for breakdowns and emergencies.",
       "text": "Fast-response callout service for breakdowns and emergencies. Our engineers carry a wide range of parts to resolve issues on the first visit wherever possible.",
-      "featured": true
+      "featured": true,
+      "link": "/air-conditioning-repairs/"
     },
     {
       "icon": "snowflake",
       "title": "Installation",
       "short": "Full design and install from single splits to multi-zone VRV.",
       "text": "Full design and installation of air conditioning and ventilation systems for residential, commercial, and industrial applications. From single splits to multi-zone VRV systems.",
-      "featured": true
+      "featured": true,
+      "link": "/air-conditioning-installation/"
     },
     {
       "icon": "clipboard",
@@ -32,7 +35,8 @@
       "icon": "shield",
       "title": "F-Gas Leak Checks",
       "short": "Certified, logged leak checks to F-Gas regulations.",
-      "text": "Regulatory leak checks for systems containing fluorinated greenhouse gases, fully compliant with F-Gas regulations. Certified and logged."
+      "text": "Regulatory leak checks for systems containing fluorinated greenhouse gases, fully compliant with F-Gas regulations. Certified and logged.",
+      "link": "/f-gas-leak-checks/"
     },
     {
       "icon": "file",
@@ -44,7 +48,8 @@
       "icon": "hospital",
       "title": "SHTM 03-01 AHU Inspections",
       "short": "Healthcare air handling unit inspections and compliance.",
-      "text": "Specialist air handling unit inspections for healthcare facilities in line with Scottish Health Technical Memorandum 03-01 guidelines, including AHU O&M documentation."
+      "text": "Specialist air handling unit inspections for healthcare facilities in line with Scottish Health Technical Memorandum 03-01 guidelines, including AHU O&M documentation.",
+      "link": "/shtm-03-01-ahu-inspections/"
     },
     {
       "icon": "wind",
@@ -57,7 +62,8 @@
       "title": "BESS Battery Storage Air Conditioning",
       "short": "Specialised cooling for battery energy storage systems.",
       "text": "Specialised cooling solutions for Battery Energy Storage Systems, ensuring optimal operating temperatures and protecting critical infrastructure.",
-      "featured": true
+      "featured": true,
+      "link": "/bess-cooling/"
     },
     {
       "icon": "chart",

@@ -50,11 +50,12 @@ bodyClass: home
     </div>
     <div class="grid grid--4">
       {%- for s in services.items %}{% if s.featured %}
-      <article class="card">
+      <a class="card post-card" href="{{ s.link or '/services/' }}">
         <div class="card__icon">{% icon s.icon %}</div>
         <h3>{{ s.title }}</h3>
         <p>{{ s.short }}</p>
-      </article>
+        <span class="card__link">Find out more {% icon "arrow" %}</span>
+      </a>
       {%- endif %}{% endfor %}
     </div>
     <p style="text-align:center;margin-top:2rem"><a class="btn btn--primary" href="/services/">View all services {% icon "arrow" %}</a></p>
@@ -99,6 +100,19 @@ bodyClass: home
       {%- endif %}{% endfor %}
     </div>
     <p style="text-align:center;margin-top:2rem"><a class="btn btn--outline" href="/gallery/">View full gallery {% icon "arrow" %}</a></p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__head section__head--center">
+      <span class="eyebrow">Areas we cover</span>
+      <h2>Local air conditioning engineers</h2>
+      <p class="lead">Based in Midlothian and covering Edinburgh, the Lothians, Fife, Glasgow, the Scottish Borders and the North of England.</p>
+    </div>
+    <div class="chips" style="justify-content:center">
+      {%- for a in areas %}<a class="chip" href="/areas/{{ a.slug }}/">{% icon "pin" %} Air conditioning {{ a.name }}</a>{% endfor %}
+    </div>
   </div>
 </section>
 

@@ -1,0 +1,248 @@
+[
+  {
+    "slug": "air-conditioning-maintenance",
+    "nav": "Maintenance",
+    "icon": "wrench",
+    "h1": "Air Conditioning Maintenance & Servicing",
+    "title": "Air Conditioning Maintenance Edinburgh & Scotland | GMA",
+    "description": "Planned preventative air conditioning maintenance contracts across Edinburgh, Scotland & the North of England. F-Gas certified engineers, all major manufacturers. Free survey.",
+    "intro": "Planned preventative maintenance (PPM) keeps air conditioning efficient, compliant and reliable. GMA maintains single splits through to multi-site VRV/VRF estates for offices, healthcare, education, leisure, retail and residential clients across Scotland and the North of England.",
+    "sections": [
+      {
+        "h": "What a GMA service visit includes",
+        "list": [
+          "Filter cleaning or replacement and coil inspection",
+          "Refrigerant system checks and F-Gas leak testing where required",
+          "Condensate drain and pump checks to prevent leaks",
+          "Electrical and control checks, set-points and operating temperatures",
+          "Outdoor unit inspection, fan and fin condition",
+          "A written service report with photos and recommended actions"
+        ]
+      },
+      {
+        "h": "Why planned maintenance pays",
+        "text": "Regular servicing reduces breakdowns, keeps energy use down and extends equipment life. It also keeps you compliant with F-Gas regulations and supports your TM44 inspection, which assesses maintenance standards as part of the report."
+      },
+      {
+        "h": "Contracts to suit your estate",
+        "text": "We set the visit frequency around how hard your equipment works – typically quarterly, six-monthly or annual – and can combine maintenance with F-Gas leak checks, TM44 inspections and 4D remote monitoring under one contract. We service Daikin, Mitsubishi Electric, Toshiba and all other major manufacturers."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How often should air conditioning be serviced?",
+        "a": "Most commercial systems should be serviced at least once or twice a year. Systems running continuously – server rooms, healthcare and retail – usually benefit from quarterly visits. We'll recommend a frequency after a free site survey."
+      },
+      {
+        "q": "Do you maintain systems you didn't install?",
+        "a": "Yes. We maintain systems from all major manufacturers, whoever installed them."
+      },
+      {
+        "q": "Can maintenance be combined with F-Gas and TM44 compliance?",
+        "a": "Yes. We can schedule statutory F-Gas leak checks and your TM44 inspection alongside routine servicing to reduce disruption and cost."
+      }
+    ]
+  },
+  {
+    "slug": "air-conditioning-installation",
+    "nav": "Installation",
+    "icon": "snowflake",
+    "h1": "Air Conditioning Installation",
+    "title": "Air Conditioning Installation Edinburgh & Scotland | GMA",
+    "description": "Commercial and home air conditioning installation across Edinburgh, the Lothians and Scotland. Split, multi-split and VRV/VRF systems. Accredited Daikin, Mitsubishi Electric & Toshiba installers.",
+    "intro": "From a single wall-mounted split to a multi-zone VRV/VRF system, GMA designs and installs air conditioning and heat pump systems for commercial, healthcare, industrial and residential buildings across Scotland and the North of England.",
+    "sections": [
+      {
+        "h": "How an installation works",
+        "list": [
+          "Free site survey and heat-load assessment",
+          "System design and equipment selection to suit the building and budget",
+          "A clear written quotation",
+          "Installation by F-Gas certified engineers",
+          "Commissioning, testing and handover documentation",
+          "Aftercare, warranty registration and maintenance options"
+        ]
+      },
+      {
+        "h": "Systems we install",
+        "text": "Wall-mounted, ceiling cassette and ducted split systems; multi-split systems; VRV/VRF heat recovery and heat pump systems; air-to-air heat pumps for heating and cooling; and specialist cooling for server rooms and BESS sites."
+      },
+      {
+        "h": "Accredited manufacturer installers",
+        "text": "GMA is an accredited Mitsubishi Electric, Daikin and Toshiba installer – including Toshiba's 7-year warranty partner scheme – so you get extended manufacturer warranties and installations to the manufacturer's standard."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do you install air conditioning in homes?",
+        "a": "Yes. We install quiet, efficient wall-mounted and concealed systems for homes, including air-to-air heat pumps that provide both heating and cooling."
+      },
+      {
+        "q": "How long does an installation take?",
+        "a": "A single split system in a home or small office is often installed in a day. Larger commercial systems are programmed with you to minimise disruption."
+      },
+      {
+        "q": "Is the site survey free?",
+        "a": "Yes. We offer free site surveys and no-obligation quotations."
+      }
+    ]
+  },
+  {
+    "slug": "air-conditioning-repairs",
+    "nav": "Repairs",
+    "icon": "bolt",
+    "h1": "Air Conditioning Repairs & Breakdowns",
+    "title": "Air Conditioning Repairs Edinburgh & Scotland | GMA",
+    "description": "Fast air conditioning repairs and fault finding across Edinburgh, the Lothians and Scotland. All major brands including Mitsubishi Electric, Daikin & Toshiba. Call 0131 564 0113.",
+    "intro": "When air conditioning fails, comfort, productivity and sometimes critical equipment are at risk. GMA's engineers diagnose and repair faults on all major manufacturers' equipment across Scotland and the North of England.",
+    "sections": [
+      {
+        "h": "Common faults we fix",
+        "list": [
+          "System not cooling or heating",
+          "Water leaks and condensate pump failures",
+          "Fault and error codes",
+          "Refrigerant leaks – located, repaired and logged to F-Gas regulations",
+          "Noisy, iced-up or short-cycling units",
+          "Controls and communication faults on multi-split and VRV/VRF systems"
+        ]
+      },
+      {
+        "h": "First-time fixes",
+        "text": "Our engineers carry a wide range of parts to resolve as many faults as possible on the first visit. Where a part has to be ordered, we'll explain the fault, the options and the cost before any further work."
+      },
+      {
+        "h": "Stop it happening again",
+        "text": "Many breakdowns are caused by missed maintenance. After a repair we can recommend a planned maintenance schedule or 4D remote monitoring so faults are spotted before they cause downtime."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Which brands do you repair?",
+        "a": "All major manufacturers, including Mitsubishi Electric, Daikin and Toshiba."
+      },
+      {
+        "q": "Do you offer emergency callouts?",
+        "a": "Yes. For urgent breakdowns please phone 0131 564 0113 rather than using the website form."
+      }
+    ]
+  },
+  {
+    "slug": "f-gas-leak-checks",
+    "nav": "F-Gas Leak Checks",
+    "icon": "shield",
+    "h1": "F-Gas Leak Checks & Compliance",
+    "title": "F-Gas Leak Checks Scotland | Refrigerant Compliance | GMA",
+    "description": "F-Gas leak checks, record keeping and compliance for air conditioning and heat pump systems across Scotland & the North of England. REFCOM registered, F-Gas certified engineers.",
+    "intro": "Air conditioning and heat pump systems containing fluorinated greenhouse gases (F-Gas) must be leak-checked at set intervals and the results recorded. GMA's F-Gas certified engineers carry out leak checks, repairs and record keeping so you stay compliant.",
+    "sections": [
+      {
+        "h": "What we provide",
+        "list": [
+          "Statutory leak checks at the interval your systems require",
+          "Leak location and repair, followed by re-testing",
+          "Refrigerant recovery and recharging",
+          "Accurate F-Gas records for each system",
+          "Advice on phase-down and replacement planning for older refrigerants"
+        ]
+      },
+      {
+        "h": "Who needs F-Gas leak checks?",
+        "text": "Operators of equipment above the charge thresholds set by the F-Gas regulations – which covers most commercial air conditioning. The required frequency depends on the refrigerant and charge size; we'll confirm what applies to each system on your site."
+      },
+      {
+        "h": "Certified and registered",
+        "text": "GMA is F-Gas certified and REFCOM registered, and our engineers hold the appropriate F-Gas qualifications. Leak checks can be combined with planned maintenance to save visits."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How often do F-Gas leak checks need to be done?",
+        "a": "It depends on the refrigerant and the size of the charge. Many commercial systems need checks every 12 months, some every 6 or 3 months. We'll confirm the frequency for each of your systems."
+      },
+      {
+        "q": "Can you check systems installed by another company?",
+        "a": "Yes. We carry out F-Gas leak checks on any manufacturer's equipment."
+      }
+    ]
+  },
+  {
+    "slug": "shtm-03-01-ahu-inspections",
+    "nav": "SHTM 03-01 AHU",
+    "icon": "hospital",
+    "h1": "SHTM 03-01 AHU Inspections & Healthcare Ventilation",
+    "title": "SHTM 03-01 AHU Inspections Scotland | GMA",
+    "description": "SHTM 03-01 air handling unit inspections, remedial works and AHU O&M documentation for NHS and healthcare sites across Scotland. Experienced healthcare HVAC engineers.",
+    "intro": "Healthcare ventilation in Scotland must meet Scottish Health Technical Memorandum (SHTM) 03-01. GMA inspects, maintains and upgrades air handling units for healthcare estates, and has recently completed AHU works to SHTM 03-01 for a number of NHS boards in Scotland.",
+    "sections": [
+      {
+        "h": "Our healthcare ventilation services",
+        "list": [
+          "SHTM 03-01 AHU inspections and condition reports",
+          "Remedial and upgrade works identified by inspections",
+          "Filter, fan, coil and damper maintenance",
+          "AHU O&M manuals and asset documentation",
+          "Testing and validation reports",
+          "Planned maintenance for AHUs, comfort cooling and specialist ventilation"
+        ]
+      },
+      {
+        "h": "Working in live healthcare environments",
+        "text": "Our engineers are experienced in working around clinical operations, following site permit-to-work and infection-control requirements, and coordinating closely with estates teams."
+      },
+      {
+        "h": "Clear, auditable reporting",
+        "text": "Every inspection results in a clear written report with findings, photographs and prioritised recommendations, giving estates teams the evidence they need for compliance and capital planning."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is SHTM 03-01?",
+        "a": "Scottish Health Technical Memorandum 03-01 sets out the design, installation, validation and operation requirements for specialised ventilation in healthcare premises in Scotland."
+      },
+      {
+        "q": "Do you produce AHU O&M manuals?",
+        "a": "Yes. We prepare AHU O&M manuals and asset documentation as part of our AHU compliance services."
+      }
+    ]
+  },
+  {
+    "slug": "bess-cooling",
+    "nav": "BESS Cooling",
+    "icon": "battery",
+    "h1": "BESS Cooling – Battery Energy Storage Air Conditioning",
+    "title": "BESS Cooling & Battery Storage Air Con Scotland | GMA",
+    "description": "Specialist cooling installation, maintenance and repairs for battery energy storage (BESS) sites across Scotland & the North of England. Planned maintenance and remote monitoring.",
+    "intro": "Battery energy storage systems depend on tightly controlled temperatures. GMA is a BESS cooling specialist, maintaining and repairing the cooling systems that protect battery storage sites across Scotland and the North of England.",
+    "sections": [
+      {
+        "h": "BESS cooling services",
+        "list": [
+          "Planned preventative maintenance of container and enclosure cooling units",
+          "Reactive repairs and fault finding",
+          "Refrigerant leak checks and F-Gas records",
+          "Remote temperature and plant monitoring",
+          "Condition reports and replacement planning"
+        ]
+      },
+      {
+        "h": "Why cooling matters on BESS sites",
+        "text": "Battery performance, lifespan and safety are all affected by temperature. Reliable, well-maintained cooling helps keep cells within their operating range, protects warranty conditions and reduces the risk of unplanned outages."
+      },
+      {
+        "h": "Remote sites, planned properly",
+        "text": "We plan visits around remote and rural locations, site access rules and operator requirements, and report clearly so asset managers can track the condition of every unit."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do you work on existing BESS sites?",
+        "a": "Yes. We maintain and repair cooling on operational battery storage sites, whoever installed the equipment."
+      },
+      {
+        "q": "Which areas do you cover for BESS work?",
+        "a": "Scotland and the North of England, including remote and rural sites."
+      }
+    ]
+  }
+]

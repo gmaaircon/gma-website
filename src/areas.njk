@@ -1,0 +1,21 @@
+---
+layout: base.njk
+permalink: /areas/
+title: "Areas We Cover | Air Conditioning Scotland & N. England | GMA"
+description: "GMA Air Conditioning covers Edinburgh, Midlothian, the Lothians, Fife, Glasgow, the Scottish Borders and the North of England. Find local air conditioning services near you."
+crumb: Areas we cover
+---
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Areas we cover</span>
+    <h1>Air Conditioning Across Scotland & the North of England</h1>
+    <p>Based in Midlothian, GMA's engineers cover Edinburgh, the Lothians, Fife, Glasgow, the Scottish Borders and the North of England.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container grid grid--4">
+    {%- for a in areas %}
+    <a class="card post-card" href="/areas/{{ a.slug }}/"><div class="card__icon">{% icon "pin" %}</div><h3>{{ a.name }}</h3><p>{% for pl in a.places %}{% if loop.index <= 5 %}{{ pl }}{% if loop.index < 5 %}, {% endif %}{% endif %}{% endfor %}…</p><span class="card__link">Air conditioning in {{ a.name }} {% icon "arrow" %}</span></a>
+    {%- endfor %}
+  </div>
+</section>

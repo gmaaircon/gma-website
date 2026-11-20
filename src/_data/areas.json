@@ -1,0 +1,204 @@
+[
+  {
+    "slug": "edinburgh",
+    "name": "Edinburgh",
+    "title": "Air Conditioning Edinburgh | Install, Service, Repair | GMA",
+    "description": "Air conditioning installation, maintenance, repairs and TM44 inspections across Edinburgh. Local F-Gas certified engineers based in Midlothian. Free site surveys – call 0131 564 0113.",
+    "intro": "GMA Air Conditioning is based just outside the city in Midlothian, so Edinburgh is home ground. We install, service and repair air conditioning for offices, hotels, healthcare, education, retail and homes across the city.",
+    "detail": "Edinburgh's mix of listed Georgian and Victorian buildings, modern offices and busy commercial premises means air conditioning often has to be planned around conservation requirements, restricted plant space and tight access. Our engineers are used to working in the city centre and around the Old and New Towns, as well as business parks and estates on the outskirts – with discreet indoor units, sensitive pipe routes and well-planned access.",
+    "places": [
+      "City Centre",
+      "New Town",
+      "Old Town",
+      "Leith",
+      "Haymarket",
+      "Morningside",
+      "Corstorphine",
+      "Gogar",
+      "South Gyle",
+      "Portobello",
+      "Musselburgh",
+      "South Queensferry",
+      "Currie",
+      "Balerno"
+    ],
+    "focus": [
+      "air-conditioning-maintenance",
+      "air-conditioning-installation",
+      "air-conditioning-repairs"
+    ]
+  },
+  {
+    "slug": "midlothian",
+    "name": "Midlothian",
+    "title": "Air Conditioning Midlothian | Bonnyrigg & Dalkeith | GMA",
+    "description": "Local air conditioning installation, servicing and repairs across Midlothian – Bonnyrigg, Dalkeith, Penicuik, Loanhead and beyond. Midlothian-based F-Gas certified engineers.",
+    "intro": "Midlothian is where GMA is based, which means short travel times and quick response for homes and businesses across the county.",
+    "detail": "From retail and industrial units at Straiton and Loanhead to offices, schools and homes in Bonnyrigg, Dalkeith and Penicuik, we provide the full range of air conditioning, heat pump and ventilation services locally – including free site surveys, installation, planned maintenance and reactive repairs.",
+    "places": [
+      "Bonnyrigg",
+      "Dalkeith",
+      "Penicuik",
+      "Loanhead",
+      "Lasswade",
+      "Mayfield",
+      "Gorebridge",
+      "Newtongrange",
+      "Roslin",
+      "Straiton",
+      "Danderhall",
+      "Pathhead"
+    ],
+    "focus": [
+      "air-conditioning-installation",
+      "air-conditioning-maintenance",
+      "air-conditioning-repairs"
+    ]
+  },
+  {
+    "slug": "east-lothian",
+    "name": "East Lothian",
+    "title": "Air Conditioning East Lothian | Musselburgh & Dunbar | GMA",
+    "description": "Air conditioning installation, maintenance and repairs across East Lothian including Musselburgh, Tranent, Haddington, North Berwick and Dunbar. F-Gas certified engineers.",
+    "intro": "GMA covers the whole of East Lothian, from Musselburgh and Tranent to Haddington, North Berwick and Dunbar.",
+    "detail": "Coastal locations bring their own challenges for outdoor units – salt air and exposure can shorten equipment life if systems aren't specified and maintained properly. We select suitable equipment and protective options for coastal sites and keep them running with planned maintenance, alongside installations and repairs for businesses, hospitality and homes.",
+    "places": [
+      "Musselburgh",
+      "Tranent",
+      "Prestonpans",
+      "Haddington",
+      "North Berwick",
+      "Dunbar",
+      "Cockenzie",
+      "Ormiston",
+      "Gullane",
+      "East Linton"
+    ],
+    "focus": [
+      "air-conditioning-installation",
+      "air-conditioning-maintenance",
+      "air-conditioning-repairs"
+    ]
+  },
+  {
+    "slug": "west-lothian",
+    "name": "West Lothian",
+    "title": "Air Conditioning West Lothian | Livingston & Bathgate | GMA",
+    "description": "Commercial and domestic air conditioning across West Lothian – Livingston, Bathgate, Whitburn, Broxburn and Linlithgow. Installation, servicing, repairs and TM44 inspections.",
+    "intro": "West Lothian's business parks, industrial estates and growing towns are well served by GMA, with installation, maintenance and repairs across Livingston, Bathgate, Whitburn and beyond.",
+    "detail": "Many West Lothian sites are warehouses, manufacturing units, offices and data rooms where cooling is business-critical. We provide planned maintenance contracts, reactive repairs, F-Gas leak checks and TM44 inspections, as well as new installations from single splits to VRV/VRF systems.",
+    "places": [
+      "Livingston",
+      "Bathgate",
+      "Whitburn",
+      "Broxburn",
+      "Linlithgow",
+      "Armadale",
+      "Uphall",
+      "East Calder",
+      "West Calder",
+      "Blackburn"
+    ],
+    "focus": [
+      "air-conditioning-maintenance",
+      "air-conditioning-installation",
+      "f-gas-leak-checks"
+    ]
+  },
+  {
+    "slug": "fife",
+    "name": "Fife",
+    "title": "Air Conditioning Fife | Dunfermline & Kirkcaldy | GMA",
+    "description": "Air conditioning installation, maintenance, repairs and TM44 inspections across Fife including Dunfermline, Kirkcaldy, Glenrothes and St Andrews. F-Gas certified engineers.",
+    "intro": "Just over the Forth from Edinburgh, Fife is a regular part of GMA's service area, covering Dunfermline, Kirkcaldy, Glenrothes, St Andrews and the towns in between.",
+    "detail": "We look after commercial, healthcare, education, leisure and residential sites across the region, combining planned maintenance visits efficiently and responding to breakdowns. Our TM44 assessors also carry out statutory air conditioning inspections for Fife buildings with more than 12kW of cooling.",
+    "places": [
+      "Dunfermline",
+      "Kirkcaldy",
+      "Glenrothes",
+      "St Andrews",
+      "Rosyth",
+      "Inverkeithing",
+      "Dalgety Bay",
+      "Cupar",
+      "Leven",
+      "Cowdenbeath"
+    ],
+    "focus": [
+      "air-conditioning-maintenance",
+      "air-conditioning-repairs",
+      "air-conditioning-installation"
+    ]
+  },
+  {
+    "slug": "glasgow",
+    "name": "Glasgow",
+    "title": "Air Conditioning Glasgow | Servicing, Repairs & TM44 | GMA",
+    "description": "Commercial air conditioning maintenance, repairs, installation and TM44 inspections in Glasgow and the west of Scotland. F-Gas certified, REFCOM registered engineers.",
+    "intro": "GMA works across Glasgow and the west of Scotland on commercial air conditioning, from student accommodation and education buildings to offices and retail.",
+    "detail": "Our services in Glasgow include planned maintenance contracts, repair and remedial works, new installations and TM44 air conditioning inspections by our accredited Level 3 and Level 4 assessors – with clear reporting for facilities and estates teams.",
+    "places": [
+      "City Centre",
+      "Merchant City",
+      "West End",
+      "Southside",
+      "Finnieston",
+      "Paisley",
+      "Clydebank",
+      "East Kilbride",
+      "Rutherglen",
+      "Motherwell"
+    ],
+    "focus": [
+      "air-conditioning-maintenance",
+      "air-conditioning-repairs",
+      "f-gas-leak-checks"
+    ]
+  },
+  {
+    "slug": "scottish-borders",
+    "name": "Scottish Borders",
+    "title": "Air Conditioning Scottish Borders | Galashiels & Hawick | GMA",
+    "description": "Air conditioning maintenance, repairs and installation across the Scottish Borders including Galashiels, Melrose, Hawick, Kelso and Peebles. Healthcare and leisure specialists.",
+    "intro": "GMA covers the Scottish Borders, from Peebles and Galashiels to Melrose, Kelso and Hawick, looking after healthcare, leisure, commercial and residential sites.",
+    "detail": "Rural travel distances mean planned maintenance needs to be scheduled sensibly, with engineers carrying the right parts. We plan Borders visits efficiently and provide the full range of services – maintenance, repairs, installation, SHTM 03-01 healthcare ventilation work and TM44 inspections.",
+    "places": [
+      "Galashiels",
+      "Melrose",
+      "Hawick",
+      "Kelso",
+      "Peebles",
+      "Selkirk",
+      "Jedburgh",
+      "Eyemouth",
+      "Duns",
+      "Innerleithen"
+    ],
+    "focus": [
+      "air-conditioning-maintenance",
+      "shtm-03-01-ahu-inspections",
+      "air-conditioning-repairs"
+    ]
+  },
+  {
+    "slug": "north-of-england",
+    "name": "North of England",
+    "title": "Air Conditioning North of England & BESS Cooling | GMA",
+    "description": "Commercial air conditioning maintenance, BESS cooling and TM44 inspections across the North of England including Cumbria and the North East. F-Gas certified engineers.",
+    "intro": "As well as Scotland, GMA serves clients across the North of England, including Cumbria and the North East – particularly commercial estates and battery energy storage sites.",
+    "detail": "For multi-site clients with properties either side of the border, we can provide one consistent maintenance contract, one point of contact and the same reporting standard. Services include planned maintenance, repairs, BESS cooling, F-Gas compliance and TM44 inspections.",
+    "places": [
+      "Carlisle",
+      "Cumbria",
+      "Newcastle",
+      "Northumberland",
+      "County Durham",
+      "Teesside"
+    ],
+    "focus": [
+      "bess-cooling",
+      "air-conditioning-maintenance",
+      "f-gas-leak-checks"
+    ]
+  }
+]

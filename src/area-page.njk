@@ -1,0 +1,63 @@
+---
+layout: base.njk
+pagination:
+  data: areas
+  size: 1
+  alias: area
+  addAllPagesToCollections: true
+permalink: "/areas/{{ area.slug }}/"
+eleventyComputed:
+  title: "{{ area.title | safe }}"
+  description: "{{ area.description | safe }}"
+  crumb: "Air conditioning {{ area.name }}"
+---
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow"><a href="/areas/" style="color:inherit;text-decoration:none">Areas we cover</a></span>
+    <h1>Air Conditioning in {{ area.name }}</h1>
+    <p>{{ area.intro }}</p>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="/contact/">Free site survey {% icon "arrow" %}</a>
+      <a class="btn btn--outline-light" href="tel:{{ site.phoneLink }}">{% icon "phone" %} {{ site.phoneDisplay }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split" style="align-items:start">
+    <div>
+      <span class="eyebrow">Local HVAC specialists</span>
+      <h2>Air conditioning services in {{ area.name }}</h2>
+      <p>{{ area.detail }}</p>
+      <p>Every job is carried out by F-Gas certified engineers. GMA is REFCOM registered, SafeContractor approved and an accredited Mitsubishi Electric, Daikin and Toshiba installer.</p>
+      <h3 style="margin-top:1.5rem">Areas covered in and around {{ area.name }}</h3>
+      <p>{{ area.places | join(", ") }} and surrounding areas.</p>
+    </div>
+    <div class="grid" style="gap:1rem">
+      {%- for sp in servicePages %}{% if sp.slug in area.focus %}
+      <a class="card post-card" href="/{{ sp.slug }}/"><div class="card__icon">{% icon sp.icon %}</div><h3>{{ sp.h1 }} in {{ area.name }}</h3><span class="card__link">Find out more {% icon "arrow" %}</span></a>
+      {%- endif %}{% endfor %}
+      <a class="card post-card" href="/tm44-inspections/"><div class="card__icon">{% icon "clipboard" %}</div><h3>TM44 inspections in {{ area.name }}</h3><span class="card__link">Find out more {% icon "arrow" %}</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section__head section__head--center"><span class="eyebrow">Testimonials</span><h2>What our clients say</h2></div>
+    <div class="quotes">
+      {%- for t in testimonials.items %}{% if loop.index <= 2 %}
+      <blockquote class="quote"><div class="quote__stars" aria-label="5 out of 5 stars">{% icon "star" %}{% icon "star" %}{% icon "star" %}{% icon "star" %}{% icon "star" %}</div><p>“{{ t.text }}”</p><cite>{{ t.name }}</cite></blockquote>
+      {%- endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__head section__head--center"><span class="eyebrow">Also covering</span><h2>Other areas we serve</h2></div>
+    <div class="chips" style="justify-content:center">
+      {%- for a in areas %}{% if a.slug != area.slug %}<a class="chip" href="/areas/{{ a.slug }}/">{% icon "pin" %} {{ a.name }}</a>{% endif %}{% endfor %}
+    </div>
+  </div>
+</section>

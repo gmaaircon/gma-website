@@ -3,14 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ title }}</title>
+  {%- set fullTitle = title ~ (" | GMA Air Conditioning" if (page.url.startsWith("/blog/") and page.url != "/blog/") else "") %}
+  <title>{{ fullTitle }}</title>
   <meta name="description" content="{{ description }}">
   {%- set canonical = site.url + page.url %}
   {% if noindex %}<meta name="robots" content="noindex">{% endif %}
   <link rel="canonical" href="{{ canonical }}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ site.name }}">
-  <meta property="og:title" content="{{ title }}">
+  <meta property="og:title" content="{{ fullTitle }}">
   <meta property="og:description" content="{{ description }}">
   <meta property="og:url" content="{{ canonical }}">
   <meta property="og:image" content="{{ site.url }}/assets/img/og-image.jpg">
@@ -39,7 +40,8 @@
         "telephone": "{{ site.phoneLink }}",
         "email": "{{ site.email }}",
         "address": { "@type": "PostalAddress", "addressRegion": "Scotland", "addressCountry": "GB" },
-        "areaServed": [{ "@type": "Place", "name": "Scotland" }, { "@type": "Place", "name": "North of England" }],
+        "areaServed": [{% for a in areas %}{ "@type": "Place", "name": "{{ a.name }}" }, {% endfor %}{ "@type": "Place", "name": "Scotland" }],
+        "knowsAbout": ["Air conditioning installation", "Air conditioning maintenance", "Air conditioning repair", "TM44 air conditioning inspections", "F-Gas leak checks", "SHTM 03-01 AHU inspections", "BESS cooling", "Heat pumps"],
         "openingHours": "Mo-Fr 09:00-17:00",
         "sameAs": ["{{ site.social.facebook }}", "{{ site.social.instagram }}", "{{ site.social.linkedin }}"]
       },
@@ -52,6 +54,13 @@
       ] }
       {%- endif %}
       {%- if schemaExtra %},{{ schemaExtra | safe }}{% endif %}
+      {%- if sp %},
+      { "@type": "Service", "name": {{ sp.h1 | json | safe }}, "description": {{ sp.description | json | safe }}, "provider": { "@id": "{{ site.url }}/#business" }, "areaServed": [{% for a in areas %}"{{ a.name }}"{% if not loop.last %}, {% endif %}{% endfor %}] },
+      { "@type": "FAQPage", "mainEntity": [{% for f in sp.faq %}{ "@type": "Question", "name": {{ f.q | json | safe }}, "acceptedAnswer": { "@type": "Answer", "text": {{ f.a | json | safe }} } }{% if not loop.last %},{% endif %}{% endfor %}] }
+      {%- endif %}
+      {%- if area %},
+      { "@type": "Service", "name": "Air conditioning services in {{ area.name }}", "serviceType": "HVAC installation, maintenance and repair", "provider": { "@id": "{{ site.url }}/#business" }, "areaServed": { "@type": "AdministrativeArea", "name": "{{ area.name }}" } }
+      {%- endif %}
       {%- if page.url == "/tm44-inspections/" %},{ "@type": "FAQPage", "mainEntity": [{% for f in tm44.faq %}{ "@type": "Question", "name": {{ f.q | json | safe }}, "acceptedAnswer": { "@type": "Answer", "text": {{ f.a | json | safe }} } }{% if not loop.last %},{% endif %}{% endfor %}] },{ "@type": "Service", "name": "TM44 air conditioning inspections", "serviceType": "Air conditioning energy inspection (CIBSE TM44)", "provider": { "@id": "https://gma-ac.com/#business" }, "areaServed": ["Scotland", "North of England"] }{% endif %}
     ]
   }
@@ -123,6 +132,10 @@
         <ul>
           {%- for s in services.items %}{% if loop.index <= 7 %}<li><a href="{{ s.link or '/services/' }}">{{ s.title }}</a></li>{% endif %}{% endfor %}
         </ul>
+      </div>
+      <div>
+        <h3>Areas we cover</h3>
+        <ul>{% for a in areas %}<li><a href="/areas/{{ a.slug }}/">{{ a.name }}</a></li>{% endfor %}</ul>
       </div>
       <div>
         <h3>Contact us</h3>

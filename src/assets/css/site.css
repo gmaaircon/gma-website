@@ -204,7 +204,7 @@ p { margin: 0 0 1em; }
 
 /* Footer */
 .footer { background: var(--navy); color: #b6ccd4; font-size: .95rem; padding-top: 3.5rem; }
-.footer__grid { display: grid; grid-template-columns: 1.4fr 1fr 1.2fr 1.3fr; gap: 2rem; }
+.footer__grid { display: grid; grid-template-columns: 1.4fr 0.9fr 1.2fr 0.9fr 1.3fr; gap: 2rem; }
 .footer__logo { background: #fff; border-radius: 10px; padding: .6rem .8rem; width: 180px; margin-bottom: 1rem; }
 .footer h3 { color: #fff; font-size: 1rem; text-transform: uppercase; letter-spacing: .1em; }
 .footer ul { list-style: none; padding: 0; margin: 0; }
