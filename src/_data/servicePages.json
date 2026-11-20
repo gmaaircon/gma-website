@@ -128,6 +128,58 @@
     ]
   },
   {
+    "slug": "air-source-heat-pumps",
+    "nav": "Heat pumps",
+    "icon": "home",
+    "h1": "Domestic Air Source Heat Pumps & Unvented Cylinders",
+    "title": "Air Source Heat Pumps & Unvented Cylinders Edinburgh | GMA",
+    "description": "Domestic air source heat pump installation, servicing and repairs, plus unvented hot water cylinders, across Edinburgh, the Lothians and Scotland. Free home survey.",
+    "intro": "An air source heat pump takes heat from the outside air to heat your home and hot water, even in a Scottish winter. GMA designs, installs, services and repairs domestic air source heat pumps and the unvented hot water cylinders that go with them. Our refrigeration-trained engineers work on the same technology every day in commercial air conditioning.",
+    "sections": [
+      {
+        "h": "Our domestic heat pump services",
+        "list": [
+          "Free home survey and heat loss calculation to size the system correctly",
+          "Supply and installation of air-to-water heat pumps from leading manufacturers",
+          "Unvented hot water cylinder supply, installation and replacement",
+          "Radiator and pipework upgrades where needed for low-temperature running",
+          "Commissioning, controls set-up and a clear handover so you know how to get the best from it",
+          "Annual servicing, fault-finding and repairs, including systems we didn't install"
+        ]
+      },
+      {
+        "h": "Unvented hot water cylinders",
+        "text": "An unvented cylinder runs at mains pressure, giving strong showers and hot water to several taps at once, and frees up loft space by removing the cold water tank. Heat pump cylinders have a large internal coil sized for the lower flow temperatures heat pumps run at. We install, replace and service unvented cylinders, including the safety checks on the expansion vessel, pressure and temperature relief valves and discharge pipework that should be carried out every year."
+      },
+      {
+        "h": "Why service your heat pump every year",
+        "text": "Annual servicing keeps your heat pump efficient and reliable and is usually a condition of the manufacturer's warranty. A GMA service covers the outdoor unit, refrigerant circuit, system pressure and water quality, filters and strainers, controls and settings, and the unvented cylinder safety checks, with a written report afterwards."
+      },
+      {
+        "h": "Funding for heat pumps",
+        "text": "Homeowners in Scotland may be able to get help with the cost of a heat pump through the Home Energy Scotland Grant and Loan, and in England the Boiler Upgrade Scheme can apply. Each scheme has its own eligibility rules and installer requirements, so check with Home Energy Scotland or Ofgem before you commit, and ask us when you book your survey."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Will a heat pump work in Scotland's climate?",
+        "a": "Yes. Modern air source heat pumps keep working well below freezing. The key is correct sizing from a proper heat loss calculation and radiators that can deliver enough heat at lower flow temperatures, which we check at survey."
+      },
+      {
+        "q": "Do I need an unvented cylinder with a heat pump?",
+        "a": "Most heat pump systems need a hot water cylinder, because a heat pump can't heat water instantly like a combi boiler. An unvented cylinder designed for heat pumps is the usual choice and gives you mains-pressure hot water."
+      },
+      {
+        "q": "How often should a heat pump and unvented cylinder be serviced?",
+        "a": "Once a year. Manufacturers generally require annual servicing to keep the warranty valid, and unvented cylinders should have their safety devices checked annually."
+      },
+      {
+        "q": "Can you service or repair a heat pump someone else installed?",
+        "a": "Yes. We service and repair air source heat pumps and unvented cylinders from all major manufacturers, whoever installed them."
+      }
+    ]
+  },
+  {
     "slug": "f-gas-leak-checks",
     "nav": "F-Gas Leak Checks",
     "icon": "shield",
