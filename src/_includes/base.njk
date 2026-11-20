@@ -42,7 +42,7 @@
         "address": { "@type": "PostalAddress", "addressRegion": "Scotland", "addressCountry": "GB" },
         "areaServed": [{% for a in areas %}{ "@type": "Place", "name": "{{ a.name }}" }, {% endfor %}{ "@type": "Place", "name": "Scotland" }],
         "knowsAbout": ["Air conditioning installation", "Air conditioning maintenance", "Air conditioning repair", "TM44 air conditioning inspections", "F-Gas leak checks", "SHTM 03-01 AHU inspections", "BESS cooling", "Heat pumps"],
-        "openingHours": "Mo-Fr 09:00-17:00",
+        "openingHours": "Mo-Fr 08:00-17:00",
         "sameAs": ["{{ site.social.facebook }}", "{{ site.social.instagram }}", "{{ site.social.linkedin }}"]
       },
       { "@type": "WebSite", "@id": "{{ site.url }}/#website", "url": "{{ site.url }}/", "name": "{{ site.name }}", "inLanguage": "en-GB", "publisher": { "@id": "{{ site.url }}/#business" } },
