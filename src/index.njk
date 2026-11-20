@@ -46,9 +46,9 @@ bodyClass: home
     <div class="section__head section__head--center">
       <span class="eyebrow">What we do</span>
       <h2>Our Services</h2>
-      <p class="lead">Comprehensive air conditioning & ventilation services with over 25 years of expertise.</p>
+      <p class="lead">Air conditioning, ventilation & heat pump services with over 25 years of expertise.</p>
     </div>
-    <div class="grid grid--4">
+    <div class="grid grid--3">
       {%- for s in services.items %}{% if s.featured %}
       <a class="card post-card" href="{{ s.link or '/services/' }}">
         <div class="card__icon">{% icon s.icon %}</div>
