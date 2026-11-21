@@ -5,7 +5,7 @@
       {%- for a in accreditations.items %}
         {%- if a.logo %}<img src="{{ a.logo }}" alt="{{ a.name }}" loading="lazy" title="{{ a.name }}">{% else %}<span class="accred__text">{{ a.name }}</span>{% endif %}
       {%- endfor %}
-      <iframe src="{{ site.cyberEssentialsWidget }}" title="Cyber Essentials Plus certificate" loading="lazy"></iframe>
+      <div class="accred__ce"><iframe src="{{ site.cyberEssentialsWidget }}" title="Cyber Essentials Plus certificate" loading="lazy" scrolling="no"></iframe></div>
     </div>
   </div>
 </section>
