@@ -15,7 +15,7 @@ crumb: Areas we cover
 <section class="section">
   <div class="container grid grid--4">
     {%- for a in areas %}
-    <a class="card post-card" href="/areas/{{ a.slug }}/"><div class="card__icon">{% icon "pin" %}</div><h3>{{ a.name }}</h3><p>{% for pl in a.places %}{% if loop.index <= 5 %}{{ pl }}{% if loop.index < 5 %}, {% endif %}{% endif %}{% endfor %}…</p><span class="card__link">Air conditioning in {{ a.name }} {% icon "arrow" %}</span></a>
+    <a class="card post-card" href="/areas/{{ a.slug }}/"><div class="card__icon">{% icon "pin" %}</div><h2 class="h3">{{ a.name }}</h2><p>{% for pl in a.places %}{% if loop.index <= 5 %}{{ pl }}{% if loop.index < 5 %}, {% endif %}{% endif %}{% endfor %}…</p><span class="card__link">Air conditioning in {{ a.name }} {% icon "arrow" %}</span></a>
     {%- endfor %}
   </div>
 </section>
