@@ -18,7 +18,7 @@ crumb: Blog
     <a class="card post-card" href="{{ post.url }}">
       {% if post.data.image %}<img src="{{ post.data.image }}" alt="" loading="lazy" style="border-radius:10px;margin-bottom:1rem;aspect-ratio:16/10;object-fit:cover;width:100%">{% endif %}
       <time datetime="{{ post.date | isoDate }}">{{ post.date | ukDate }}</time>
-      <h3 style="margin-top:.4rem">{{ post.data.title }}</h3>
+      <h2 class="h3" style="margin-top:.4rem">{{ post.data.title }}</h2>
       <p>{{ post.data.summary }}</p>
       <span class="card__link">Read more {% icon "arrow" %}</span>
     </a>
