@@ -18,7 +18,7 @@ crumb: Expertise
     {%- for s in sectors.items %}
     <article class="card" id="{{ s.title | slugify2 }}">
       <div class="card__icon">{% icon s.icon %}</div>
-      <h3>{{ s.title }}</h3>
+      <h2 class="h3">{{ s.title }}</h2>
       <p>{{ s.text }}</p>
       <ul>{% for p in s.points %}<li>{% icon "check" %} {{ p }}</li>{% endfor %}</ul>
     </article>
