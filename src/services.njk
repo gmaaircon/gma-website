@@ -18,7 +18,7 @@ crumb: Services
     {%- for s in services.items %}
     <article class="card" id="{{ s.title | slugify2 }}">
       <div class="card__icon">{% icon s.icon %}</div>
-      <h3>{{ s.title }}</h3>
+      <h2 class="h3">{{ s.title }}</h2>
       <p>{{ s.text }}</p>
       {% if s.link %}<a class="card__link" href="{{ s.link }}">Find out more {% icon "arrow" %}</a>{% else %}<a class="card__link" href="/contact/?service={{ s.title | urlencode }}">Request a quote {% icon "arrow" %}</a>{% endif %}
     </article>
