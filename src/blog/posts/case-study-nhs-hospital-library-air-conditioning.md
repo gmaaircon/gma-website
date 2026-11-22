@@ -3,7 +3,6 @@ title: "Case study: Air conditioning for an NHS hospital education centre librar
 date: 2026-11-22
 summary: "Two Daikin split systems designed, installed and commissioned for the library in a Scottish NHS hospital's education centre."
 description: "Case study: GMA Air Conditioning installed and commissioned two Daikin split air conditioning systems for an NHS hospital education centre library in Scotland."
-image: /assets/img/gallery/commercial-daikin-units.webp
 ---
 
 **Client:** Scottish NHS board<br>
