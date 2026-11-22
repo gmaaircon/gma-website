@@ -24,7 +24,7 @@ The library in a hospital education centre needed reliable cooling to keep the s
 
 ## The result
 
-The library now has dependable, efficient cooling. The work was completed over three site visits with no issues reported at handover, and the board has full commissioning records for its asset register and future maintenance.
+The library now has dependable, efficient cooling. The work was completed within two days, scheduled around the library's opening times to minimise disruption to staff, library users and general hospital services. No issues were reported at handover, and the board has full commissioning records for its asset register and future maintenance.
 
 ## Why GMA
 
