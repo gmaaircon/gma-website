@@ -22,6 +22,8 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'denied'});
+    // Restore a visitor's earlier cookie choice (set by the cookie banner)
+    try { if (localStorage.getItem('gma-cookie-consent') === 'granted') { gtag('consent', 'update', {ad_storage: 'granted', ad_user_data: 'granted', ad_personalization: 'granted', analytics_storage: 'granted'}); } } catch (e) {}
     gtag('js', new Date());
   </script>
   <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-PCDW5R2K"></script>
@@ -167,9 +169,41 @@
     <div class="container footer__base">
       <p>{{ site.footerBadges }}</p>
       <p>© <span data-year>2026</span> {{ site.legalName }}. Registered in {{ site.registeredIn }}, company no. {{ site.companyNumber }}.</p>
-      <p><a href="/assets/docs/GMA-Modern-Slavery-Policy.pdf">Modern Slavery & Human Trafficking Policy & Annual Transparency Statement</a> · <a href="/privacy/">Privacy policy</a></p>
+      <p><a href="/assets/docs/GMA-Modern-Slavery-Policy.pdf">Modern Slavery & Human Trafficking Policy & Annual Transparency Statement</a> · <a href="/privacy/">Privacy policy</a> · <button type="button" class="cookie-link" data-cookie-settings>Cookie settings</button></p>
     </div>
   </footer>
+  <!-- Cookie consent banner -->
+  <style>
+    .cookie-banner { position: fixed; left: 1rem; right: 1rem; bottom: 1rem; z-index: 200; max-width: 760px; margin-inline: auto; background: #fff; border: 1px solid var(--line); border-top: 4px solid var(--teal); border-radius: var(--radius); box-shadow: 0 16px 40px rgba(11, 42, 54, .18); padding: 1.2rem 1.4rem; display: flex; gap: 1.2rem; align-items: center; flex-wrap: wrap; }
+    .cookie-banner[hidden] { display: none; }
+    .cookie-banner p { margin: 0; flex: 1 1 340px; font-size: .95rem; color: var(--ink); }
+    .cookie-banner strong { display: block; margin-bottom: .2rem; }
+    .cookie-banner__actions { display: flex; gap: .6rem; flex-wrap: wrap; }
+    .cookie-banner .btn { padding: .65rem 1.3rem; }
+    .cookie-link { background: none; border: 0; padding: 0; font: inherit; color: inherit; text-decoration: underline; cursor: pointer; }
+  </style>
+  <div class="cookie-banner" id="cookie-banner" role="region" aria-label="Cookie consent" hidden>
+    <p><strong>Cookies on this website</strong>We'd like to use Google cookies to measure how well our adverts and website work. They're only set if you accept. <a href="/privacy/#cookies">Read more</a></p>
+    <div class="cookie-banner__actions">
+      <button type="button" class="btn btn--outline" data-cookie="denied">Reject</button>
+      <button type="button" class="btn btn--outline" data-cookie="granted">Accept</button>
+    </div>
+  </div>
+  <script>
+    (function () {
+      var KEY = 'gma-cookie-consent', banner = document.getElementById('cookie-banner'), choice = null;
+      try { choice = localStorage.getItem(KEY); } catch (e) {}
+      if (choice !== 'granted' && choice !== 'denied') banner.hidden = false;
+      function set(value) {
+        var v = value === 'granted' ? 'granted' : 'denied';
+        gtag('consent', 'update', {ad_storage: v, ad_user_data: v, ad_personalization: v, analytics_storage: v});
+        try { localStorage.setItem(KEY, v); } catch (e) {}
+        banner.hidden = true;
+      }
+      banner.addEventListener('click', function (e) { var b = e.target.closest('[data-cookie]'); if (b) set(b.getAttribute('data-cookie')); });
+      document.addEventListener('click', function (e) { if (e.target.closest('[data-cookie-settings]')) { e.preventDefault(); banner.hidden = false; } });
+    })();
+  </script>
   <script src="/assets/js/site.js?v={{ build }}" defer></script>
 </body>
 </html>
