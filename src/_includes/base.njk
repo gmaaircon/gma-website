@@ -25,6 +25,16 @@
     gtag('js', new Date());
   </script>
   <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-PCDW5R2K"></script>
+  <!-- Google Ads tag (AW-16556164605) - conversion tracking -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16556164605"></script>
+  <script>
+    gtag('config', 'AW-16556164605');
+    // "Contact" conversion: visitor taps a phone number or email link
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a[href^="tel:"], a[href^="mailto:"]');
+      if (a) gtag('event', 'conversion', {'send_to': 'AW-16556164605/1XbZCO6Cr8AdEP2LzNY9'});
+    });
+  </script>
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/assets/img/brand/gma-logo-icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
